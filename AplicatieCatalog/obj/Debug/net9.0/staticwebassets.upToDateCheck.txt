@@ -62,6 +62,7 @@ D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog\wwwroot\lib\jquery-validation-uno
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\cataLOG.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
