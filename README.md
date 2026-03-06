@@ -2,13 +2,13 @@
 
 
 
-##RO 
+## RO 
 
 Aplicatie pentru gestionarea unui catalog cu studenti. 
 
 
 
 
-##EN
+## EN
 
 Application for managing a student catalog.
