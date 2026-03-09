@@ -20,5 +20,7 @@
         public string adresaCurenta { get; set; }
 
         public int varsta { get; set; }
+
+        public int an { get; set; }
     }
 }

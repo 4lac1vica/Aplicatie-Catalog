@@ -23,6 +23,7 @@ namespace AplicatieCatalog.Models
        
        public int varsta { get; set; }
        
-        
+       
+
     }
 }
