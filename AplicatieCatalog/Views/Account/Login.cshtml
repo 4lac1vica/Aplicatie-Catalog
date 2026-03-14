@@ -2,23 +2,39 @@
 	ViewData["Title"] = "Login";
 }
 
+@if (ViewBag.Error != null)
+{
+	<div class="alert alert-danger w-50 mx-auto">
+		@ViewBag.Error
+	</div>
+}
+
+@if (ViewBag.Success != null)
+{
+	<div class="alert alert-success w-50 mx-auto">
+		@ViewBag.Success
+	</div>
+}
+
 <h2 class="text-center mb-4">
 	Login as <span class="text-success">@ViewBag.Role</span>
 </h2>
 
-<form class="w-50 mx-auto">
+<form asp-controller="Account" asp-action="Login" method="post" class="w-50 mx-auto">
+
+	<input type="hidden" name="role" value="@ViewBag.Role" />
+
 	<div class="mb-3">
 		<label>Email</label>
-		<input type="email" class="form-control"></input>
+		<input type="email" name="email" class="form-control" />
 	</div>
 
 	<div class="mb-3">
 		<label>Password</label>
-		<input type="password" class="form-control">	
+		<input type="password" name="password" class="form-control" />
 	</div>
 
-	<button class="btn btn-success w-100">
+	<button type="submit" class="btn btn-success w-100">
 		Login
 	</button>
 </form>
-

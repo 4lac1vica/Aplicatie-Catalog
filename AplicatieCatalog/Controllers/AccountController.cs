@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AplicatieCatalog.Controllers
 {
@@ -58,6 +59,22 @@ namespace AplicatieCatalog.Controllers
            
 
             ViewBag.Success = "Account created successfully!";
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(string email, string password, string role)
+        {
+
+            ViewBag.Role = role;
+
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                ViewBag.Error = "Invalid credentials!";
+                return View();
+            }
+
+            ViewBag.Success = "Success!";
             return View();
         }
     }
