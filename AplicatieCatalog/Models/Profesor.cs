@@ -11,8 +11,7 @@ namespace AplicatieCatalog.Models
        public string firstName { get; set; }
        
        public string telefon { get; set; }
-        
-       
+   
        public string email { get; set; }
        
        public string materie { get; set; }
@@ -23,7 +22,5 @@ namespace AplicatieCatalog.Models
        
        public int varsta { get; set; }
        
-       
-
     }
 }

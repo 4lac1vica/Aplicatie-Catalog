@@ -28,6 +28,16 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult StudentMain()
+    {
+        return View();
+    }
+
+    public IActionResult TeacherMain()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

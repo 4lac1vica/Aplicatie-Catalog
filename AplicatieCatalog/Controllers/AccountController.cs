@@ -19,7 +19,7 @@ namespace AplicatieCatalog.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(string LastName, string FirstName, string email, string password, string telephone ,string role)
+        public IActionResult Register(string LastName, string FirstName, string email, string password, string confirmPassword ,string telephone ,string role)
         {
 
             if (string.IsNullOrWhiteSpace(LastName) ||
@@ -27,7 +27,9 @@ namespace AplicatieCatalog.Controllers
                string.IsNullOrWhiteSpace(email) ||
                string.IsNullOrWhiteSpace(password) ||
                string.IsNullOrWhiteSpace(telephone) ||
-               string.IsNullOrWhiteSpace(role))
+               string.IsNullOrWhiteSpace(role) ||
+               string.IsNullOrWhiteSpace(confirmPassword)) 
+               
             {
                 ViewBag.Error = "All fields are required.";
                 return View();
@@ -56,11 +58,19 @@ namespace AplicatieCatalog.Controllers
                 return View();
             }
 
+            if (confirmPassword != password)
+            {
+                ViewBag.Error = "Passwords do not match.";
+                return View();
+            }
+
            
 
             ViewBag.Success = "Account created successfully!";
             return View();
         }
+
+       
 
         [HttpPost]
         public IActionResult Login(string email, string password, string role)
@@ -72,6 +82,17 @@ namespace AplicatieCatalog.Controllers
             {
                 ViewBag.Error = "Invalid credentials!";
                 return View();
+            }
+
+            
+            if (role == "Student")
+            {
+                return RedirectToAction("StudentMain", "Home");
+            }
+
+            if (role == "Teacher")
+            {
+                return RedirectToAction("TeacherMain", "Home");
             }
 
             ViewBag.Success = "Success!";
