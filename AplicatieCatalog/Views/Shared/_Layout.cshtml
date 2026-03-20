@@ -4,16 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - cataLOG</title>
-     
-    <link rel="icon" type="image/png" href="~/images/cataLOG.png" />
 
+    <link rel="icon" type="image/png" href="~/images/cataLOG.png" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AplicatieCatalog.styles.css" asp-append-version="true" />
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -28,30 +26,58 @@
                 </button>
 
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-
                     <ul class="navbar-nav flex-grow-1">
 
-                        <li class="nav-item">
-                            <a class="nav-link text-success" asp-controller="Home" asp-action="Index">
-                                Home
-                            </a>
-                        </li>
+                        @if (User.IsInRole("Student"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="StudentMain">
+                                    Dashboard
+                                </a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-success" asp-controller="Home" asp-action="Privacy">
-                                Privacy
-                            </a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="Privacy">
+                                    Privacy
+                                </a>
+                            </li>
+                        }
+                        else if (User.IsInRole("Teacher"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="TeacherMain">
+                                    Dashboard
+                                </a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-success" asp-controller="Home" asp-action="AboutUs">
-                                About Us
-                            </a>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="Privacy">
+                                    Privacy
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="Index">
+                                    Home
+                                </a>
+                            </li>
 
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="Privacy">
+                                    Privacy
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-success" asp-controller="Home" asp-action="AboutUs">
+                                    About Us
+                                </a>
+                            </li>
+                        }
 
                     </ul>
-
                 </div>
 
             </div>
@@ -76,6 +102,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-
 </body>
 </html>
