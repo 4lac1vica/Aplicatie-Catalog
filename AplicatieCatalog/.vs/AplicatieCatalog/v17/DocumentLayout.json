@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\anon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\anon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\anon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\anon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +43,60 @@
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\viewmodels\\accountprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:viewmodels\\accountprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\viewmodels\\deleteaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:viewmodels\\deleteaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\migrations\\20260320093516_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,22 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -126,11 +150,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteAccount.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\DeleteAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\DeleteAccount.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\DeleteAccount.cshtml",
+              "RelativeToolTip": "Views\\Account\\DeleteAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T18:40:36.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -140,7 +177,7 @@
               "RelativeDocumentMoniker": "Models\\Profesor.cs",
               "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Profesor.cs",
               "RelativeToolTip": "Models\\Profesor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T08:14:23.549Z",
               "EditorCaption": ""
@@ -148,97 +185,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T08:19:10.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAEEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T08:39:00.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T08:38:35.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentMain.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\StudentMain.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
-              "RelativeToolTip": "Views\\Home\\StudentMain.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T09:54:17.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TeacherMain.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\TeacherMain.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
-              "RelativeToolTip": "Views\\Home\\TeacherMain.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T10:20:13.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T06:20:22.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T06:20:21.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Anon.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Anon.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Anon.cshtml",
@@ -247,6 +193,71 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-17T10:39:36.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAcwNEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T07:57:11.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentMain.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\StudentMain.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
+              "RelativeToolTip": "Views\\Home\\StudentMain.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T09:54:17.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountProfile.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\AccountProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccountProfile.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\AccountProfile.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccountProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T12:13:18.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T08:39:00.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T08:38:35.479Z",
               "EditorCaption": ""
             },
             {
@@ -264,7 +275,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountProfileViewModel.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\AccountProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AccountProfileViewModel.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\AccountProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AccountProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T11:44:37.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T09:06:28.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherMain.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\TeacherMain.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
+              "RelativeToolTip": "Views\\Home\\TeacherMain.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-17T10:20:13.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteAccountViewModel.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\DeleteAccountViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DeleteAccountViewModel.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\DeleteAccountViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DeleteAccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T17:53:45.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T09:19:06.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T06:20:21.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -277,142 +366,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Enums\\Roles.cs",
-              "RelativeDocumentMoniker": "Enums\\Roles.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Enums\\Roles.cs",
-              "RelativeToolTip": "Enums\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T14:13:53.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T08:27:42.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T15:03:46.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20260320093516_InitialCreate.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\20260320093516_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260320093516_InitialCreate.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\20260320093516_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260320093516_InitialCreate.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T09:35:16.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T09:38:02.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADcAAAAAAAAAAAAtwFkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T14:42:41.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwHEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T07:57:11.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T06:20:14.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T06:21:24.125Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T14:33:57.77Z"
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T06:20:22.42Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T06:20:16.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "AboutUs.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\AboutUs.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
@@ -424,7 +390,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T08:19:10.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:03:46.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "Enums\\Roles.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Enums\\Roles.cs",
+              "RelativeToolTip": "Enums\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T14:13:53.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T06:21:24.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T08:27:42.242Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwDMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:20:14.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260320093516_InitialCreate.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\20260320093516_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260320093516_InitialCreate.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\20260320093516_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260320093516_InitialCreate.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T09:35:16.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T09:38:02.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAtwFkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T14:42:41.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-06T14:33:57.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-06T06:20:16.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -436,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
@@ -448,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -460,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -472,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -484,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "AplicatieCatalog.csproj",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\AplicatieCatalog.csproj",
               "RelativeDocumentMoniker": "AplicatieCatalog.csproj",

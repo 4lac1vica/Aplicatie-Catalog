@@ -1,0 +1,25 @@
+﻿
+
+@model AplicatieCatalog.ViewModels.AccountProfileViewModel
+@{
+	ViewData["Title"] = "Account Details";
+}
+
+<h2>Profilul meu</h2>
+<p><strong>Prenume: </strong>@Model.FirstName</p>
+<p><strong>Nume: </strong>@Model.LastName</p>
+<p><strong>Email: </strong>@Model.Email</p>
+<p><strong>Numar Telefon: </strong>@Model.Telephone</p>
+<p><strong>Rol: </strong>@Model.Role</p>
+@if (Model.Role == "Student")
+{
+	<p><strong>Grupa: </strong>@Model.Grupa</p>
+}
+
+@if (Model.Role == "Teacher")
+{
+	<p><strong>Materie: </strong>@Model.Materie</p>
+}
+
+
+

@@ -1,0 +1,38 @@
+﻿@model AplicatieCatalog.ViewModels.DeleteAccountViewModel
+
+@{
+    ViewData["Title"] = "Delete Account";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm w-50 mx-auto">
+        <div class="card-body">
+            <h2 class="text-danger text-center mb-4">Delete Account</h2>
+
+            <p class="text-center">
+                Introdu parola pentru a confirma stergerea contului.
+            </p>
+
+            <form asp-controller="Account" asp-action="DeleteAccount" method="post">
+                @Html.AntiForgeryToken()
+
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-danger w-100"
+                        onclick="return confirm('Sigur vrei să stergi contul?');">
+                    Delete Account
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

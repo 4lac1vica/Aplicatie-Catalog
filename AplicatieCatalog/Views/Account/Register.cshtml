@@ -1,66 +1,116 @@
-﻿@{
-    ViewData["Title"] = "Register";
-}
+﻿@model AplicatieCatalog.ViewModels.RegisterViewModel
 
-<h2 class="text-center mb-4">Create an Account</h2>
+@{
+	ViewData["Title"] = "Register";
+}
 
 @if (ViewBag.Error != null)
 {
-    <div class="alert alert-danger w-50 mx-auto">
-        @ViewBag.Error
-    </div>
+	<div class="alert alert-danger w-50 mx-auto">
+		@ViewBag.Error
+	</div>
 }
 
 @if (ViewBag.Success != null)
 {
-    <div class="alert alert-success w-50 mx-auto">
-        @ViewBag.Success
-    </div>
+	<div class="alert alert-success w-50 mx-auto">
+		@ViewBag.Success
+	</div>
 }
+
+<h2 class="text-center mb-4">Register</h2>
 
 <form asp-controller="Account" asp-action="Register" method="post" class="w-50 mx-auto">
 
-    <div class="mb-3">
-        <label class="form-label">Last Name</label>
-        <input type="text" name="LastName" class="form-control" />
-    </div>
+	<div class="mb-3">
+		<label asp-for="FirstName"></label>
+		<input asp-for="FirstName" class="form-control" />
+		<span asp-validation-for="FirstName" class="text-danger"></span>
+	</div>
 
-    <div class="mb-3">
-        <label class="form-label">First Name</label>
-        <input type="text" name="FirstName" class="form-control" />
-    </div>
+	<div class="mb-3">
+		<label asp-for="LastName"></label>
+		<input asp-for="LastName" class="form-control" />
+		<span asp-validation-for="LastName" class="text-danger"></span>
+	</div>
 
-    <div class="mb-3">
-        <label class="form-label">Email</label>
-        <input type="email" name="Email" class="form-control" />
-    </div>
+	<div class="mb-3">
+		<label asp-for="Email"></label>
+		<input asp-for="Email" class="form-control" />
+		<span asp-validation-for="Email" class="text-danger"></span>
+	</div>
 
-    <div class="mb-3">
-        <label class="form-label">Password</label>
-        <input type="password" name="Password" class="form-control" />
-    </div>
+	<div class="mb-3">
+		<label asp-for="Telephone"></label>
+		<input asp-for="Telephone" class="form-control" />
+		<span asp-validation-for="Telephone" class="text-danger"></span>
+	</div>
 
-    <div class="mb-3">
-        <label class="form-label">Confirm Password</label>
-        <input type="password" name="ConfirmPassword" class="form-control" />
-    </div>
+	<div class="mb-3">
+		<label asp-for="Password"></label>
+		<input asp-for="Password" type="password" class="form-control" />
+		<span asp-validation-for="Password" class="text-danger"></span>
+	</div>
 
-    <div class="mb-3">
-        <label class="form-label">Telephone</label>
-        <input type="tel" name="Telephone" class="form-control" />
-    </div>
+	<div class="mb-3" id="materieField" style="display:none;">
+		<label asp-for="Materie"></label>
+		<input asp-for="Materie" class="form-control" />
+		<span asp-validation-for="Materie" class="text-danger"></span>
+	</div>
 
-    <div class="mb-3">
-        <label class="form-label">Role</label>
-        <select name="Role" class="form-control">
-            <option value="">Select role</option>
-            <option value="Student">Student</option>
-            <option value="Teacher">Teacher</option>
-        </select>
-    </div>
+	<select asp-for="Role" class="form-control" id="roleSelect">
+		<option value="">-- Select role --</option>
+		<option value="Student">Student</option>
+		<option value="Teacher">Teacher</option>
+	</select>
 
-    <button type="submit" class="btn btn-success w-100">
-        Register
-    </button>
+	<div class="mb-3" id="grupaField" style="display:none;">
+		<label asp-for="Grupa"></label>
+		<input asp-for="Grupa" class="form-control" />
+		<span asp-validation-for="Grupa" class="text-danger"></span>
+	</div>
 
+	<button type="submit" class="btn btn-primary w-100">
+		Register
+	</button>
 </form>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+
+	<script>
+		function toggleFields() {
+			var roleElement = document.getElementById("roleSelect");
+			var materieDiv = document.getElementById("materieField");
+			var grupaDiv = document.getElementById("grupaField");
+
+			if (!roleElement || !materieDiv || !grupaDiv) {
+				return;
+			}
+
+			var role = roleElement.value;
+
+			if (role === "Teacher") {
+				materieDiv.style.display = "block";
+				grupaDiv.style.display = "none";
+			}
+			else if (role === "Student") {
+				materieDiv.style.display = "none";
+				grupaDiv.style.display = "block";
+			}
+			else {
+				materieDiv.style.display = "none";
+				grupaDiv.style.display = "none";
+			}
+		}
+
+		document.addEventListener("DOMContentLoaded", function () {
+			var roleElement = document.getElementById("roleSelect");
+
+			if (roleElement) {
+				roleElement.addEventListener("change", toggleFields);
+				toggleFields();
+			}
+		});
+	</script>
+}
