@@ -267,6 +267,120 @@ namespace AplicatieCatalog.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> EditProfile()
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var role = roles.FirstOrDefault();
+
+            var model = new EditProfileViewModel
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Telephone = user.PhoneNumber,
+                Role = role
+            };
+
+            if (role == "Student")
+            {
+                var student = await _context.Students
+                    .FirstOrDefaultAsync(s => s.ApplicationUserId == user.Id);
+
+                if (student != null)
+                {
+                    model.Grupa = student.Grupa;
+                }
+            }
+            else if (role == "Teacher")
+            {
+                var profesor = await _context.Profesori
+                    .FirstOrDefaultAsync(p => p.ApplicationUserId == user.Id);
+
+                if (profesor != null)
+                {
+                    model.Materie = profesor.Materie;
+                }
+            }
+
+            return View(model);
+        }
+
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditProfile(EditProfileViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null)
+                return RedirectToAction("Login", "Account");
+
+            var passwordValid = await _userManager.CheckPasswordAsync(user, model.Password);
+
+            if (!passwordValid)
+            {
+                ModelState.AddModelError("Password", "Parola este incorecta.");
+                return View(model);
+            }
+
+            
+            user.PhoneNumber = model.Telephone;
+
+            var updateUserResult = await _userManager.UpdateAsync(user);
+
+            if (!updateUserResult.Succeeded)
+            {
+                foreach (var error in updateUserResult.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+
+                return View(model);
+            }
+
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var role = roles.FirstOrDefault();
+
+            if (role == "Student")
+            {
+                var student = await _context.Students
+                    .FirstOrDefaultAsync(s => s.ApplicationUserId == user.Id);
+
+                if (student != null)
+                {
+                    student.Telefon = model.Telephone;
+                    student.Grupa = model.Grupa;
+                }
+            }
+            else if (role == "Teacher")
+            {
+                var profesor = await _context.Profesori
+                    .FirstOrDefaultAsync(p => p.ApplicationUserId == user.Id);
+
+                if (profesor != null)
+                {
+                    profesor.Telefon = model.Telephone;
+                    profesor.Materie = model.Materie;
+                }
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("AccountProfile");
+        }
+
     }
     
 }
