@@ -41,7 +41,7 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
 
 
 
-## UML Diagram 
+## Class Diagram 
 
 
 
@@ -85,6 +85,6 @@ This project aims to create an application that allows the management of a stude
 
 
 
-## UML Diagram
+## Class Diagram
 
 
