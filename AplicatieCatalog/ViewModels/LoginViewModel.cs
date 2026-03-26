@@ -4,11 +4,11 @@ namespace AplicatieCatalog.ViewModels
 {
     public class LoginViewModel
     {
-        [Required]
-        [EmailAddress]
+        [Required(ErrorMessage = "Acest camp este obligatoriu!")]
+        [EmailAddress(ErrorMessage = "Email invalid!")]
         public string Email { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Acest camp este obligatoriu!")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

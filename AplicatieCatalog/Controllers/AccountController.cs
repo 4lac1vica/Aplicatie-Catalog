@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.IdentityModel.Abstractions;
+using AspNetCoreGeneratedDocument;
 
 namespace AplicatieCatalog.Controllers
 {
@@ -40,7 +43,31 @@ namespace AplicatieCatalog.Controllers
 
             if (model.Role == "Teacher" && string.IsNullOrWhiteSpace(model.Materie))
             {
-                ModelState.AddModelError("Materie", "Materie este obligatorie pentru profesor.");
+                ModelState.AddModelError("Materie", "Campul 'Materie' este obligatoriu pentru profesor.");
+            }
+
+            if (model.Role == "Student" && string.IsNullOrWhiteSpace(model.Grupa))
+            {
+                ModelState.AddModelError("Grupa", "Campul 'Grupa' este obligatoriu pentru student.");
+            }
+
+            if (model.Role == "Student" && !model.Email.EndsWith("@student.com")){
+                ModelState.AddModelError("Email", "Pentru 'Student', emailul trebuie sa aiba terminatia @student.com!");
+            }
+
+            if (model.Role == "Teacher" && !model.Email.EndsWith("@teacher.com"))
+            {
+                ModelState.AddModelError("Email", "Pentru 'Teacher', emailul trebuie sa aiba terminatia @teacher.com!");
+            }
+
+            if (model.Role != "Student" && model.Role != "Teacher")
+            {
+                ModelState.AddModelError("Role", "Acest rol nu exista!");
+            }
+
+            if (!model.Email.Contains(model.FirstName) && !model.Email.Contains(model.LastName))
+            {
+                ModelState.AddModelError("Email", "Formatul Emailului trebuie sa fie 'prenume.nume@student sau teacher.com'");
             }
 
             if (!ModelState.IsValid)
@@ -59,7 +86,7 @@ namespace AplicatieCatalog.Controllers
 
             if (!result.Succeeded)
             {
-                ViewBag.Error = "Registration failed!";
+                ViewBag.Error = "Inregistrare esuata!";
                 return View(model);
             }
 
@@ -96,7 +123,7 @@ namespace AplicatieCatalog.Controllers
 
             await _context.SaveChangesAsync();
 
-            ViewBag.Success = "Account created successfully!";
+            ViewBag.Success = "Cont creat cu succes!";
             return View();
         }
 
@@ -117,7 +144,7 @@ namespace AplicatieCatalog.Controllers
 
             if (user == null)
             {
-                ViewBag.Error = "Invalid credentials!";
+                ViewBag.Error = "Nu se poate face autentificarea!";
                 return View(model);
             }
 
@@ -125,7 +152,7 @@ namespace AplicatieCatalog.Controllers
 
             if (!result.Succeeded)
             {
-                ViewBag.Error = "Invalid credentials!";
+                ViewBag.Error = "Autentificare nereusita!";
                 return View(model);
             }
 

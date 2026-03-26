@@ -12,7 +12,7 @@ namespace AplicatieCatalog.ViewModels
 
         public string? Role { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Pentru a modifica profilul trebuie confirmata parola.")]
         [DataType(DataType.Password)]
         [Display(Name = "Confirma parola")]
         public string Password { get; set; } = string.Empty;
