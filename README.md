@@ -1,6 +1,6 @@
 # cataLOG
 
-(https://github.com/4lac1vica/Aplicatie-Catalog?tab=readme-ov-file#en)[jump to english READ.ME]
+(jump to **ENGLISH** README)[https://github.com/4lac1vica/Aplicatie-Catalog?tab=readme-ov-file#en]
 
 ## RO 
 
