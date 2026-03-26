@@ -51,6 +51,33 @@ Application for managing a student catalog.
 
 This project aims to create an application that allows the management of a student catalog. Within this application, various **features** are available, depending on the role of the user. The *frontend* part is written in **HTML** and **JavaScript**, using **Razor Pages**, while the *backend* part is written in **C#**, using **ASP.NET** and **Entity Framework**. Data persistence is ensured by the database connection, managed with the help of **Microsoft SQL Server**. More details are available in the **Deliverables2026.docx** file, which is the full documentation.
 
+**FUNCTIONALITIES:**
+
+   1) **Student**
+      - Login
+      - Logout
+      - Delete Account
+      - Edit Profile
+      - Received Grades
+      - Register
+      - Account details
+      - Search and See other users
+
+   2) **Teacher**
+      - Login
+      - Logout
+      - Delete Account
+      - Edit Profile
+      - Grades Students
+      - Register
+      - Account details
+      - Search and See other users
+
+   3) **Anonymus User**
+
+      - Search and See the registered users and their details (personal details are hidden)
+      
+
 ## Use-Case Diagram
 
 
