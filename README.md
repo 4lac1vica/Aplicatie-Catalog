@@ -8,7 +8,7 @@ Aplicatie pentru gestionarea unui catalog cu studenti.
 
 Acest proiect are ca si scop creearea unei aplicatii care propune gestionarea unui catalog de studenti. In cadrul acestei aplicatii sunt disponibile diverse **functionalitati**, in functie de rolul pe care il are utilizatorul. Partea de *frontend* este scrisa in : **HTML** si **JavaScript**, folosind **Razor Pages**, iar partea de *backend* este scrisa in **C#**, folosind **ASP.NET** si **Entity Framework**. 
 
-**FUNCTIONALITATI : **
+**FUNCTIONALITATI :**
 
 1) **Student**
    - Login
