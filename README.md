@@ -8,7 +8,9 @@ Aplicatie pentru gestionarea unui catalog cu studenti.
 
 ## Use-Case Diagram 
 
-https://app.diagrams.net/?src=about
+
+<img width="1351" height="678" alt="image" src="https://github.com/user-attachments/assets/8dec21b0-b6eb-492b-870d-29486fb4c285" />
+
 
 
 
@@ -19,4 +21,7 @@ Application for managing a student catalog.
 
 ## Use-Case Diagram
 
-https://app.diagrams.net/?src=about
+
+
+<img width="1351" height="678" alt="image" src="https://github.com/user-attachments/assets/38517e84-d1f2-4946-a1af-52b82865bd19" />
+
