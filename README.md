@@ -7,8 +7,7 @@
 Aplicatie pentru gestionarea unui catalog cu studenti. 
 
 Acest proiect are ca si scop creearea unei aplicatii care propune gestionarea unui catalog de studenti. In cadrul acestei aplicatii sunt disponibile diverse **functionalitati**, in functie de rolul pe care il are utilizatorul. Partea de *frontend* este scrisa in : **HTML** si **JavaScript**, folosind **Razor Pages**, iar partea de *backend* este scrisa in **C#**, folosind **ASP.NET** si **Entity Framework**. 
-Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu ajutorul **Microsoft SQL Server**. More details are available in the **Deliverables2026.docx file**, which is the full documentation.
-
+Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu ajutorul **Microsoft SQL Server**. Mai multe detalii se pot gasi in fisierul **Deliverables2026.docx file**, care este documentatia proiectului/aplicatiei.
 
 **FUNCTIONALITATI :**
 
@@ -49,6 +48,8 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
 ## EN
 
 Application for managing a student catalog.
+
+This project aims to create an application that allows the management of a student catalog. Within this application, various **features** are available, depending on the role of the user. The *frontend* part is written in **HTML** and **JavaScript**, using **Razor Pages**, while the *backend* part is written in **C#**, using **ASP.NET** and **Entity Framework**. Data persistence is ensured by the database connection, managed with the help of **Microsoft SQL Server**. More details are available in the **Deliverables2026.docx** file, which is the full documentation.
 
 ## Use-Case Diagram
 
