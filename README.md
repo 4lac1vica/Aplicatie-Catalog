@@ -6,6 +6,31 @@
 
 Aplicatie pentru gestionarea unui catalog cu studenti. 
 
+Acest proiect are ca si scop creearea unei aplicatii care propune gestionarea unui catalog de studenti. In cadrul acestei aplicatii sunt disponibile diverse **functionalitati**, in functie de rolul pe care il are utilizatorul.
+
+1) **Student**
+   - Login
+   - Logout
+   - Delete Account
+   - Edit Profile
+   - Vede Notele //TBI
+   - Inregistrare
+   - Vede Detaliile Profilului 
+   - Cauta/Vede alti utilizatori
+
+2) **Profesor**
+   - Login
+   - Logout
+   - Delete Account
+   - Edit Profile
+   - Pune Notele //TBI
+   - Inregistrare
+   - Vede Detaliile Profilului
+   - Cauta/Vede alti utilizatori
+     
+3) **Utilizator Anonim**
+   - Cauta si vede studenti/profesori si detaliile acestora (detaliile esentiale precum contactul sunt ascunse)
+
 ## Use-Case Diagram 
 
 
