@@ -1,8 +1,8 @@
 ﻿
 
 using Microsoft.AspNetCore.Identity;
-
 namespace AplicatieCatalog.Models
+
 
 
 {
