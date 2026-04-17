@@ -41,6 +41,10 @@
                                     Privacy
                                 </a>
                             </li>
+
+                            <a class="nav-link text-primary fw-bold" asp-controller="Search" asp-action="Users">
+                                    Search Users
+                            </a>
                         }
                         else if (User.IsInRole("Teacher"))
                         {
@@ -55,6 +59,10 @@
                                     Privacy
                                 </a>
                             </li>
+
+                            <a class="nav-link text-primary fw-bold" asp-controller="Search" asp-action="Users">
+                                 Search Users
+                            </a>
                         }
                         else
                         {

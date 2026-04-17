@@ -1,0 +1,47 @@
+﻿@model AplicatieCatalog.ViewModels.UserSearchPageViewModel
+
+@{
+    ViewData["Title"] = "Search Users";
+}
+
+<h2>Căutare utilizatori</h2>
+
+<form method="get" asp-controller="Search" asp-action="Users">
+    <div class="mb-3">
+        <label for="query" class="form-label">Caută după email, prenume sau nume</label>
+        <input type="text" id="query" name="query" value="@Model.Query" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model.Results != null && Model.Results.Any())
+{
+    <hr />
+
+    <table class="table table-bordered table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Prenume</th>
+                <th>Nume</th>
+                <th>Rol</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Results)
+            {
+                <tr>
+                    <td>@user.Email</td>
+                    <td>@user.FirstName</td>
+                    <td>@user.LastName</td>
+                    <td>@user.Role</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (!string.IsNullOrWhiteSpace(Model.Query))
+{
+    <p class="mt-3 text-danger">Nu s-au găsit utilizatori.</p>
+}

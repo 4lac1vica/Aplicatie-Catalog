@@ -28,7 +28,7 @@ namespace AplicatieCatalog.ManagementApi.Controllers
 
                 return Ok(users);
             }
-            
+           
         }
 
    }

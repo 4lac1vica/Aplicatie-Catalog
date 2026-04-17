@@ -1,11 +1,3 @@
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.csproj.AssemblyReference.cache
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.GeneratedMSBuildEditorConfig.editorconfig
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.AssemblyInfoInputs.cache
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.AssemblyInfo.cs
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.csproj.CoreCompileInputs.cache
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.MvcApplicationPartsAssemblyInfo.cs
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.MvcApplicationPartsAssemblyInfo.cache
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.sourcelink.json
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\AplicatieCatalog.deps.json
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\AplicatieCatalog.runtimeconfig.json
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\AplicatieCatalog.staticwebassets.runtime.json
@@ -81,6 +73,14 @@ D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\ru
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\AplicatieCatalog.dll
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\bin\Debug\net9.0\AplicatieCatalog.pdb
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.csproj.AssemblyReference.cache
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.AssemblyInfoInputs.cache
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.AssemblyInfo.cs
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.csproj.CoreCompileInputs.cache
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.sourcelink.json
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\scopedcss\bundle\AplicatieCatalog.ManagementApi.styles.css
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\compressed\v0uv2f6yw6-td9y13ek67.gz
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\staticwebassets.build.json
