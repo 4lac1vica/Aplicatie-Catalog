@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AplicatieCatalog.ManagementApi.props" />
+</Project>

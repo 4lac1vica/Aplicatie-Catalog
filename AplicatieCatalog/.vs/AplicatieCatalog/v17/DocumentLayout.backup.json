@@ -3,26 +3,40 @@
   "WorkspaceRootPath": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\usersearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iusersearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\aplicatiecatalog.managementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\aplicatiecatalog.managementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\aplicatiecatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:aplicatiecatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\aplicatiecatalog.managementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\aplicatiecatalog.managementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,24 +46,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:26:35.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-17T07:17:34.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T06:18:52.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserSearchService.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
               "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
               "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T15:10:28.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AplicatieCatalog.csproj",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\AplicatieCatalog.csproj",
+              "RelativeDocumentMoniker": "AplicatieCatalog.csproj",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\AplicatieCatalog.csproj",
+              "RelativeToolTip": "AplicatieCatalog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T15:05:35.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AplicatieCatalog.ManagementApi.csproj",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T15:04:15.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T06:44:58.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GradesController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\GradesController.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\GradesController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\GradesController.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\GradesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T06:36:12.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserSearchService.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:02:57.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:01:25.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AplicatieCatalog.ManagementApi.http",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.http",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.http",
@@ -58,68 +189,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2026-04-16T15:05:38.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AplicatieCatalog.csproj",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\AplicatieCatalog.csproj",
-              "RelativeDocumentMoniker": "AplicatieCatalog.csproj",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\AplicatieCatalog.csproj",
-              "RelativeToolTip": "AplicatieCatalog.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-16T15:05:35.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AplicatieCatalog.ManagementApi.csproj",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-16T15:04:15.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Grade.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Models\\Grade.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Models\\Grade.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Models\\Grade.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Models\\Grade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T15:03:03.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserSearchService.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T15:02:57.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T15:01:25.945Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -2,6 +2,7 @@ using AplicatieCatalog.Data;
 using AplicatieCatalog.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using AplicatieCatalog.ManagementApi.Service;
 
 
 
@@ -13,6 +14,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.AddScoped<IUserSearchService, UserSearchService>();
 
 
 // Add services to the container.

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.SearchController",
+    "Method": "SearchUsers",
+    "RelativePath": "api/Search/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
