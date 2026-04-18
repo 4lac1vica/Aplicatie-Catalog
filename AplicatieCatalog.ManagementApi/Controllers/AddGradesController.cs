@@ -30,5 +30,20 @@ namespace AplicatieCatalog.ManagementApi.Controllers
             }
             
         }
+
+        [HttpGet("student/{studentId}")]
+        public async Task<IActionResult> GetStudentGrades(int studentId)
+        {
+           try
+            {
+                var grades = await _gradeService.GetStudentGradesAsync(studentId);
+                return Ok(grades);
+                
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

@@ -5,6 +5,7 @@ namespace AplicatieCatalog.ManagementApi.Service
     public interface IAddGrades
     {
         Task AddNotaAsync(AddGradeDTO dto);
+        Task<List<StudentGradeDTO>> GetStudentGradesAsync(int studentId);
 
     }
 }

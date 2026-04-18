@@ -1,0 +1,43 @@
+﻿@model List<AplicatieCatalog.ViewModels.StudentGradeViewModel>
+
+@{
+    ViewData["Title"] = "My Grades";
+}
+
+<h2>Notele mele</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Materie</th>
+                <th>Nota</th>
+                <th>Profesor</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var grade in Model)
+            {
+                <tr>
+                    <td>@grade.Materie</td>
+                    <td>@grade.Valoare</td>
+                    <td>@grade.Profesor</td>
+                    <td>@grade.Data.ToString("dd.MM.yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nu există note momentan.</p>
+}

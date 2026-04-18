@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.AddGradesController",
+    "Method": "GetStudentGrades",
+    "RelativePath": "api/AddGrades/student/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.SearchController",
     "Method": "SearchUsers",
     "RelativePath": "api/Search/users",

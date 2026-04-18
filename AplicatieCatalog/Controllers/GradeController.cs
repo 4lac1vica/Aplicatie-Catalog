@@ -6,11 +6,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Net.Http.Json;
 using System.Security.Claims;
+using System.Text.Json;
 
 
 namespace AplicatieCatalog.Controllers
 {
-    [Authorize(Roles = "Teacher")]
+    [Authorize]
     public class GradesController : Controller
     {
         private readonly HttpClient _httpClient;
@@ -22,6 +23,7 @@ namespace AplicatieCatalog.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "Teacher")]
         [HttpGet]
         public async Task<IActionResult> Add()
         {
@@ -48,6 +50,7 @@ namespace AplicatieCatalog.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "Teacher")]
         [HttpPost]
         public async Task<IActionResult> Add(AddGradesViewModel model)
         {
@@ -145,7 +148,43 @@ namespace AplicatieCatalog.Controllers
 
         }
 
-        
+        [Authorize(Roles = "Student")]
+        [HttpGet]
+        public async Task<IActionResult> MyGrades()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var student = await _context.Students
+                .FirstOrDefaultAsync(s => s.ApplicationUserId == userId);
+
+            if (student == null)
+            {
+                return NotFound("Studentul nu a putut sa fie gasit");
+            }
+
+            var apiUrl = $"https://localhost:7197/api/Grades/student/{student.ID}";
+
+            var response = await _httpClient.GetAsync(apiUrl);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                ViewBag.Error = "Nu se pot incarca notele!!";
+                return View(new List<StudentGradeViewModel>());
+            }
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            var grades = JsonSerializer.Deserialize<List<StudentGradeViewModel>>(json,
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+            return View(grades ?? new List<StudentGradeViewModel>());
+
+
+
+        }
         
 
 

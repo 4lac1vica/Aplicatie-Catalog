@@ -54,6 +54,22 @@ namespace AplicatieCatalog.ManagementApi.Service
             await _context.SaveChangesAsync();
             
         }
+
+        public async Task<List<StudentGradeDTO>> GetStudentGradesAsync(int studentId)
+        {
+            return await _context.Grades
+                .Where(g => g.StudentId == studentId)
+                .Include(g => g.Materie)
+                .Include(g => g.Profesor)
+                .Select(g => new StudentGradeDTO
+                {
+                    Valoare = g.Valoare,
+                    Materie = g.Materie.Nume,
+                    Profesor = g.Profesor.FirstName + " " + g.Profesor.LastName,
+                    Data = g.Data
+                })
+                .ToListAsync();
+        }
         
     }
 }

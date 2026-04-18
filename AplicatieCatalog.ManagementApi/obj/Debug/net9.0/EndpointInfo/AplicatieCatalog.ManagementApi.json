@@ -36,6 +36,29 @@
         }
       }
     },
+    "/api/AddGrades/student/{studentId}": {
+      "get": {
+        "tags": [
+          "AddGrades"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Search/users": {
       "get": {
         "tags": [
