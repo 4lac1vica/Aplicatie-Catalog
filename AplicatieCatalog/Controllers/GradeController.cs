@@ -114,7 +114,7 @@ namespace AplicatieCatalog.Controllers
 
 
             var response = await _httpClient.PostAsJsonAsync(
-                    "https://localhost:7197/api/Grades",
+                    "https://localhost:7197/api/AddGrades",
                     request
                 );
 
@@ -162,7 +162,7 @@ namespace AplicatieCatalog.Controllers
                 return NotFound("Studentul nu a putut sa fie gasit");
             }
 
-            var apiUrl = $"https://localhost:7197/api/Grades/student/{student.ID}";
+            var apiUrl = $"https://localhost:7197/api/AddGrades/student/{student.ID}";
 
             var response = await _httpClient.GetAsync(apiUrl);
 

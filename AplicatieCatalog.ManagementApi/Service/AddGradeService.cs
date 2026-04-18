@@ -50,7 +50,6 @@ namespace AplicatieCatalog.ManagementApi.Service
             };
 
             _context.Grades.Add(nota);
-
             await _context.SaveChangesAsync();
             
         }
