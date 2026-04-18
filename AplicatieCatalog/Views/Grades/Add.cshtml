@@ -1,0 +1,46 @@
+﻿@model AplicatieCatalog.ViewModels.AddGradesViewModel
+
+@{
+    ViewData["Title"] = "Adaugă notă";
+}
+
+<h2>Adaugă notă</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add" method="post">
+    <div class="mb-3">
+        <label asp-for="StudentId" class="form-label">Student</label>
+        <select asp-for="StudentId" asp-items="Model.Students" class="form-select">
+            <option value="">-- Selecteaza studentul --</option>
+        </select>
+        <span asp-validation-for="StudentId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MaterieId" class="form-label">Materie</label>
+        <select asp-for="MaterieId" asp-items="Model.Materii" class="form-select">
+            <option value="">-- Selecteaza materia --</option>
+        </select>
+        <span asp-validation-for="MaterieId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Valoare" class="form-label">Nota</label>
+        <input asp-for="Valoare" class="form-control" />
+        <span asp-validation-for="Valoare" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Adaugă nota</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

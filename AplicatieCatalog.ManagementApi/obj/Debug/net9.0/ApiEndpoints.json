@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.AddGradesController",
+    "Method": "AddNota",
+    "RelativePath": "api/AddGrades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AplicatieCatalog.ManagementApi.DTOs.AddGradeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.SearchController",
     "Method": "SearchUsers",
     "RelativePath": "api/Search/users",

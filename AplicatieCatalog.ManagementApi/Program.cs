@@ -16,7 +16,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IUserSearchService, UserSearchService>();
-
+builder.Services.AddScoped<IAddGrades, AddGradeService>();
 
 // Add services to the container.
 

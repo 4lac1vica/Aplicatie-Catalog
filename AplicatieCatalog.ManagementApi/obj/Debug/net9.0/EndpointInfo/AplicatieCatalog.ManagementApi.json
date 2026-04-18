@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/AddGrades": {
+      "post": {
+        "tags": [
+          "AddGrades"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddGradeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddGradeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddGradeDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Search/users": {
       "get": {
         "tags": [
@@ -27,5 +58,30 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "AddGradeDTO": {
+        "type": "object",
+        "properties": {
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "materieId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "valoare": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "profesorId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

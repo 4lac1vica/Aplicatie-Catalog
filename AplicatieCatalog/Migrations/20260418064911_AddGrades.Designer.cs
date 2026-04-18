@@ -4,6 +4,7 @@ using AplicatieCatalog.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AplicatieCatalog.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260418064911_AddGrades")]
+    partial class AddGrades
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -126,9 +129,6 @@ namespace AplicatieCatalog.Migrations
                     b.Property<int>("MaterieId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ProfesorId")
-                        .HasColumnType("int");
-
                     b.Property<int>("StudentId")
                         .HasColumnType("int");
 
@@ -138,8 +138,6 @@ namespace AplicatieCatalog.Migrations
                     b.HasKey("ID");
 
                     b.HasIndex("MaterieId");
-
-                    b.HasIndex("ProfesorId");
 
                     b.HasIndex("StudentId");
 
@@ -362,24 +360,16 @@ namespace AplicatieCatalog.Migrations
                     b.HasOne("AplicatieCatalog.Models.Materie", "Materie")
                         .WithMany("Note")
                         .HasForeignKey("MaterieId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("AplicatieCatalog.Models.Profesor", "Profesor")
-                        .WithMany()
-                        .HasForeignKey("ProfesorId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("AplicatieCatalog.Models.Student", "Student")
                         .WithMany("Note")
                         .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Materie");
-
-                    b.Navigation("Profesor");
 
                     b.Navigation("Student");
                 });
@@ -389,7 +379,7 @@ namespace AplicatieCatalog.Migrations
                     b.HasOne("AplicatieCatalog.Models.ApplicationUser", "ApplicationUser")
                         .WithMany()
                         .HasForeignKey("ApplicationUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("ApplicationUser");
