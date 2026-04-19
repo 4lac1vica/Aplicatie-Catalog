@@ -80,13 +80,11 @@ This project aims to create an application that allows the management of a stude
       - Search and See the registered users and their details (personal details are hidden)
       
 
-## Use-Case Diagram
 
 
 <img width="1351" height="678" alt="image" src="https://github.com/user-attachments/assets/38517e84-d1f2-4946-a1af-52b82865bd19" />
 
 
 
-## Class Diagram
 
 
