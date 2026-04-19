@@ -18,7 +18,7 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
    - Logout
    - Delete Account
    - Edit Profile
-   - Vede Notele //TBI
+   - Vede Notele 
    - Inregistrare
    - Vede Detaliile Profilului 
    - Cauta/Vede alti utilizatori
@@ -28,7 +28,7 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
    - Logout
    - Delete Account
    - Edit Profile
-   - Pune Notele //TBI
+   - Pune Notele
    - Inregistrare
    - Vede Detaliile Profilului
    - Cauta/Vede alti utilizatori
