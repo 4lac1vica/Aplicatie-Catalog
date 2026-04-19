@@ -1,0 +1,30 @@
+﻿@model AplicatieCatalog.ViewModels.AddMaterieViewModel
+
+@{
+    ViewData["Title"] = "Adauga Materie";
+}
+
+<h2>Adauga Materie</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="AddMaterie" method="post">
+    <div class="mb-3">
+        <label asp-for="Nume" class="form-label">Nume materie</label>
+        <input asp-for="Nume" class="form-control" />
+        <span asp-validation-for="Nume" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Adauga</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

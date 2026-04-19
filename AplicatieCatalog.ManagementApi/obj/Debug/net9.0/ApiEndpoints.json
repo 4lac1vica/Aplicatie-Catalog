@@ -32,6 +32,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.AdminController",
+    "Method": "AddMaterie",
+    "RelativePath": "api/Admin/add-materie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AplicatieCatalog.ManagementApi.DTOs.AddMaterie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/delete-user/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.AdminController",
+    "Method": "SearchUsers",
+    "RelativePath": "api/Admin/search-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "term",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.SearchController",
     "Method": "SearchUsers",
     "RelativePath": "api/Search/users",
