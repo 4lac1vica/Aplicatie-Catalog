@@ -112,7 +112,7 @@
       }
     },
     "/api/Admin/delete-user/{userId}": {
-      "post": {
+      "delete": {
         "tags": [
           "Admin"
         ],

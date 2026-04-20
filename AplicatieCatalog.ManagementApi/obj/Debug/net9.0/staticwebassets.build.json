@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7o0lAeWN54yStL+BguR176++kkFUTzkOTerDla5suIs=",
+  "Hash": "oop+tFmnlbdB33M5n0rxN51Rg8RoQmbwA1myQG8JRdo=",
   "Source": "AplicatieCatalog.ManagementApi",
   "BasePath": "_content/AplicatieCatalog.ManagementApi",
   "Mode": "Default",
@@ -2793,7 +2793,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:09 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:15 GMT"
         },
         {
           "Name": "Vary",
@@ -2842,7 +2842,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:09 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:15 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2883,7 +2883,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:09 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:15 GMT"
         },
         {
           "Name": "Vary",
@@ -2930,7 +2930,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:09 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:15 GMT"
         },
         {
           "Name": "Vary",
@@ -2987,7 +2987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:09 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:15 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3036,7 +3036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:09 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:15 GMT"
         },
         {
           "Name": "Vary",
@@ -21723,7 +21723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:10 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21784,7 +21784,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:10 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:16 GMT"
         },
         {
           "Name": "Link",
@@ -21821,7 +21821,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:10 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21868,7 +21868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:10 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21937,7 +21937,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:10 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:16 GMT"
         },
         {
           "Name": "Link",
@@ -21982,7 +21982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Apr 2026 14:20:10 GMT"
+          "Value": "Mon, 20 Apr 2026 07:32:16 GMT"
         },
         {
           "Name": "Cache-Control",

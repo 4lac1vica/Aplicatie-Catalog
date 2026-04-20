@@ -42,7 +42,7 @@ namespace AplicatieCatalog.ManagementApi.Controllers
 
 
 
-        [HttpPost("delete-user/{userId}")]
+        [HttpDelete("delete-user/{userId}")]
         public async Task<IActionResult> DeleteUser(string userId)
         {
             try

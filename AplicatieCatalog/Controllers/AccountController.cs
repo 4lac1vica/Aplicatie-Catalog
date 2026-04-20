@@ -155,12 +155,29 @@ namespace AplicatieCatalog.Controllers
                 ViewBag.Error = "Autentificare nereusita!";
                 return View(model);
             }
-
+/*
             if (model.Role == "Student")
                 return RedirectToAction("StudentMain", "Home");
 
             if (model.Role == "Teacher")
                 return RedirectToAction("TeacherMain", "Home");
+*/
+
+
+            if (await _userManager.IsInRoleAsync(user, "Admin"))
+            {
+                return RedirectToAction("Index", "Admin");
+            }
+
+            if (await _userManager.IsInRoleAsync(user, "Student"))
+            {
+                return RedirectToAction("StudentMain", "Home");
+            }
+
+            if (await _userManager.IsInRoleAsync(user, "Teacher"))
+            {
+                return RedirectToAction("TeacherMain", "Home");
+            }
 
             return RedirectToAction("Index", "Home");
         }

@@ -1,0 +1,44 @@
+﻿@model List<AplicatieCatalog.Models.Materie>
+
+@{
+    ViewData["Title"] = "Lista Materii";
+}
+
+<h2>Lista Materii</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nume</th>
+            <th>Actiuni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var materie in Model)
+        {
+            <tr>
+                <td>@materie.Id</td>
+                <td>@materie.Nume</td>
+                <td>
+                    <form asp-action="StergeMaterie" method="post">
+                        <input type="hidden" name="MaterieId" value="@materie.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm">
+                            Sterge
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

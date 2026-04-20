@@ -78,7 +78,6 @@ D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\Ap
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.AssemblyInfoInputs.cache
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.AssemblyInfo.cs
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.csproj.CoreCompileInputs.cache
-D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.MvcApplicationPartsAssemblyInfo.cs
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.MvcApplicationPartsAssemblyInfo.cache
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\AplicatieCatalog.ManagementApi.sourcelink.json
 D:\anul3Semestrul2\PS\Proiect\AplicatieCatalog.ManagementApi\obj\Debug\net9.0\scopedcss\bundle\AplicatieCatalog.ManagementApi.styles.css
