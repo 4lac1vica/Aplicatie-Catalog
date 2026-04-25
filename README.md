@@ -36,6 +36,14 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
 3) **Utilizator Anonim**
    - Cauta si vede studenti/profesori si detaliile acestora (detaliile esentiale precum contactul sunt ascunse)
 
+4) **Admin**
+
+   - Login
+   - Adauga Materii
+   - Sterge Materii
+   - Sterge Useri (Studenti / Profesori)
+     
+
 ## Use-Case Diagram 
 
 
@@ -83,7 +91,12 @@ This project aims to create an application that allows the management of a stude
 
       - Search and See the registered users and their details (personal details are hidden)
       
+   4) **Admin**
 
+      - Login
+      - Adds Subjects
+      - Deletes Subjects
+      - Remove Users (Students / Teachers)
 
 
 <img width="1351" height="678" alt="image" src="https://github.com/user-attachments/assets/38517e84-d1f2-4946-a1af-52b82865bd19" />
