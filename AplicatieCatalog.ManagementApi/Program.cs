@@ -41,6 +41,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseCors("AllowReact");
+
 app.UseAuthentication();
 app.UseAuthorization();
 

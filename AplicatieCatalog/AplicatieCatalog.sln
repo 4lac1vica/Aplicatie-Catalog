@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicatieCatalog", "Aplicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicatieCatalog.ManagementApi", "..\AplicatieCatalog.ManagementApi\AplicatieCatalog.ManagementApi.csproj", "{4D748435-6C38-4B1D-B167-C5F3D9106565}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontendreact", "..\FrontendReact\frontendreact.esproj", "{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{4D748435-6C38-4B1D-B167-C5F3D9106565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D748435-6C38-4B1D-B167-C5F3D9106565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D748435-6C38-4B1D-B167-C5F3D9106565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

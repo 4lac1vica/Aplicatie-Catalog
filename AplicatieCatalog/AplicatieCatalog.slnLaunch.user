@@ -11,6 +11,11 @@
         "Path": "..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj",
         "Action": "Start",
         "DebugTarget": "https"
+      },
+      {
+        "Path": "..\\FrontendReact\\frontendreact.esproj",
+        "Action": "Start",
+        "DebugTarget": "localhost (Edge)"
       }
     ]
   }

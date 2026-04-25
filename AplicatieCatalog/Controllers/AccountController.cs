@@ -1,77 +1,51 @@
 ﻿using AplicatieCatalog.Data;
 using AplicatieCatalog.Models;
 using AplicatieCatalog.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.IdentityModel.Abstractions;
-using AspNetCoreGeneratedDocument;
 
 namespace AplicatieCatalog.Controllers
 {
-    public class AccountController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AccountController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
 
         public AccountController(
             ApplicationDbContext context,
             UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+            SignInManager<ApplicationUser> signInManager)
         {
             _context = context;
             _userManager = userManager;
             _signInManager = signInManager;
-            _roleManager = roleManager;
         }
 
-        [HttpGet]
-        public IActionResult Register()
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
         {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel model)
-        {
-
             if (model.Role == "Teacher" && string.IsNullOrWhiteSpace(model.Materie))
-            {
                 ModelState.AddModelError("Materie", "Campul 'Materie' este obligatoriu pentru profesor.");
-            }
 
             if (model.Role == "Student" && string.IsNullOrWhiteSpace(model.Grupa))
-            {
                 ModelState.AddModelError("Grupa", "Campul 'Grupa' este obligatoriu pentru student.");
-            }
 
-            if (model.Role == "Student" && !model.Email.EndsWith("@student.com")){
-                ModelState.AddModelError("Email", "Pentru 'Student', emailul trebuie sa aiba terminatia @student.com!");
-            }
+            if (model.Role == "Student" && !model.Email.EndsWith("@student.com"))
+                ModelState.AddModelError("Email", "Pentru Student, emailul trebuie sa aiba terminatia @student.com.");
 
             if (model.Role == "Teacher" && !model.Email.EndsWith("@teacher.com"))
-            {
-                ModelState.AddModelError("Email", "Pentru 'Teacher', emailul trebuie sa aiba terminatia @teacher.com!");
-            }
+                ModelState.AddModelError("Email", "Pentru Teacher, emailul trebuie sa aiba terminatia @teacher.com.");
 
             if (model.Role != "Student" && model.Role != "Teacher")
-            {
-                ModelState.AddModelError("Role", "Acest rol nu exista!");
-            }
-
-            if (!model.Email.Contains(model.FirstName) && !model.Email.Contains(model.LastName))
-            {
-                ModelState.AddModelError("Email", "Formatul Emailului trebuie sa fie 'prenume.nume@student sau teacher.com'");
-            }
+                ModelState.AddModelError("Role", "Acest rol nu exista.");
 
             if (!ModelState.IsValid)
-                return View(model);
+                return BadRequest(ModelState);
 
             var user = new ApplicationUser
             {
@@ -85,16 +59,19 @@ namespace AplicatieCatalog.Controllers
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
-            {
-                ViewBag.Error = "Inregistrare esuata!";
-                return View(model);
-            }
+                return BadRequest(result.Errors);
 
-            await _userManager.AddToRoleAsync(user, model.Role);
+            var roleResult = await _userManager.AddToRoleAsync(user, model.Role);
+
+            if (!roleResult.Succeeded)
+            {
+                await _userManager.DeleteAsync(user);
+                return BadRequest(roleResult.Errors);
+            }
 
             if (model.Role == "Student")
             {
-                var student = new Student
+                _context.Students.Add(new Student
                 {
                     FirstName = model.FirstName,
                     LastName = model.LastName,
@@ -102,13 +79,11 @@ namespace AplicatieCatalog.Controllers
                     Telefon = model.Telephone,
                     Grupa = model.Grupa,
                     ApplicationUserId = user.Id
-                };
-
-                _context.Students.Add(student);
+                });
             }
             else if (model.Role == "Teacher")
             {
-                var profesor = new Profesor
+                _context.Profesori.Add(new Profesor
                 {
                     FirstName = model.FirstName,
                     LastName = model.LastName,
@@ -116,93 +91,75 @@ namespace AplicatieCatalog.Controllers
                     Telefon = model.Telephone,
                     Materie = model.Materie,
                     ApplicationUserId = user.Id
-                };
-
-                _context.Profesori.Add(profesor);
+                });
             }
 
             await _context.SaveChangesAsync();
 
-            ViewBag.Success = "Cont creat cu succes!";
-            return View();
+            return Ok(new
+            {
+                message = "Cont creat cu succes!",
+                role = model.Role
+            });
         }
 
-        [HttpGet]
-        public IActionResult Login(string role)
-        {
-            ViewBag.Role = role;
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel model)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
             if (!ModelState.IsValid)
-                return View(model);
+                return BadRequest(ModelState);
 
             var user = await _userManager.FindByEmailAsync(model.Email);
 
             if (user == null)
-            {
-                ViewBag.Error = "Nu se poate face autentificarea!";
-                return View(model);
-            }
+                return Unauthorized(new { message = "Email sau parola gresita." });
 
-            var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
+            var result = await _signInManager.PasswordSignInAsync(
+                user,
+                model.Password,
+                isPersistent: true,
+                lockoutOnFailure: false
+            );
 
             if (!result.Succeeded)
+                return Unauthorized(new { message = "Email sau parola gresita." });
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var role = roles.FirstOrDefault();
+
+            return Ok(new
             {
-                ViewBag.Error = "Autentificare nereusita!";
-                return View(model);
-            }
-/*
-            if (model.Role == "Student")
-                return RedirectToAction("StudentMain", "Home");
-
-            if (model.Role == "Teacher")
-                return RedirectToAction("TeacherMain", "Home");
-*/
-
-
-            if (await _userManager.IsInRoleAsync(user, "Admin"))
-            {
-                return RedirectToAction("Index", "Admin");
-            }
-
-            if (await _userManager.IsInRoleAsync(user, "Student"))
-            {
-                return RedirectToAction("StudentMain", "Home");
-            }
-
-            if (await _userManager.IsInRoleAsync(user, "Teacher"))
-            {
-                return RedirectToAction("TeacherMain", "Home");
-            }
-
-            return RedirectToAction("Index", "Home");
+                message = "Autentificare reusita.",
+                userId = user.Id,
+                email = user.Email,
+                firstName = user.FirstName,
+                lastName = user.LastName,
+                role = role
+            });
         }
 
-        [HttpPost]
+        [Authorize]
+        [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
+
+            return Ok(new { message = "Logout reusit." });
         }
 
-        [HttpGet]
+       // [Authorize]
+        [HttpGet("profile")]
         public async Task<IActionResult> AccountProfile()
         {
             var user = await _userManager.GetUserAsync(User);
 
             if (user == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
+                return Unauthorized(new { message = "Userul nu este autentificat." });
 
             var roles = await _userManager.GetRolesAsync(user);
             var role = roles.FirstOrDefault();
 
-            var model = new AccountProfileViewModel
+            var profile = new AccountProfileViewModel
             {
                 FirstName = user.FirstName,
                 LastName = user.LastName,
@@ -217,131 +174,7 @@ namespace AplicatieCatalog.Controllers
                     .FirstOrDefaultAsync(s => s.ApplicationUserId == user.Id);
 
                 if (student != null)
-                {
-                    model.Grupa = student.Grupa;
-                }
-            }
-
-            else if (role == "Teacher")
-            {
-                var profesor = await _context.Profesori
-                    .FirstOrDefaultAsync(p => p.ApplicationUserId == user.Id);
-
-                if (profesor != null)
-                {
-                    model.Materie = profesor.Materie;
-                }
-            }
-
-            return View(model);
-
-        }
-
-
-        [Authorize]
-        [HttpGet]
-        public IActionResult DeleteAccount()
-        {
-            return View();
-        }
-
-
-        [Authorize]
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteAccount(DeleteAccountViewModel model)
-        {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            var user = await _userManager.GetUserAsync(User);
-
-            if (user == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
-
-            var passwordValid = await _userManager.CheckPasswordAsync(user, model.Password);
-
-            if (!passwordValid)
-            {
-                ModelState.AddModelError("Password", "Wrong Password.");
-                return View(model);
-            }
-
-            var roles = await _userManager.GetRolesAsync(user);
-            var role = roles.FirstOrDefault();
-
-            if (role == "Student")
-            {
-                var student = await _context.Students.FirstOrDefaultAsync(s => s.ApplicationUserId == user.Id);
-
-                if (student != null)
-                {
-                    _context.Students.Remove(student);
-                }
-            }
-
-            else if (role == "Teacher")
-            {
-                var profesor = await _context.Profesori.FirstOrDefaultAsync(p => p.ApplicationUserId == user.Id);
-
-                if (profesor != null)
-                {
-                    _context.Profesori.Remove(profesor);
-                }
-            }
-
-            await _context.SaveChangesAsync();
-
-            var result = await _userManager.DeleteAsync(user);
-
-            if (!result.Succeeded)
-            {
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError("Eroare", error.Description);
-                }
-
-                return View(model);
-            }
-
-            await _signInManager.SignOutAsync();
-
-            return RedirectToAction("Index", "Home");
-        }
-
-        [Authorize]
-        [HttpGet]
-        public async Task<IActionResult> EditProfile()
-        {
-            var user = await _userManager.GetUserAsync(User);
-
-            if (user == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
-
-            var roles = await _userManager.GetRolesAsync(user);
-            var role = roles.FirstOrDefault();
-
-            var model = new EditProfileViewModel
-            {
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Telephone = user.PhoneNumber,
-                Role = role
-            };
-
-            if (role == "Student")
-            {
-                var student = await _context.Students
-                    .FirstOrDefaultAsync(s => s.ApplicationUserId == user.Id);
-
-                if (student != null)
-                {
-                    model.Grupa = student.Grupa;
-                }
+                    profile.Grupa = student.Grupa;
             }
             else if (role == "Teacher")
             {
@@ -349,50 +182,35 @@ namespace AplicatieCatalog.Controllers
                     .FirstOrDefaultAsync(p => p.ApplicationUserId == user.Id);
 
                 if (profesor != null)
-                {
-                    model.Materie = profesor.Materie;
-                }
+                    profile.Materie = profesor.Materie;
             }
 
-            return View(model);
+            return Ok(profile);
         }
 
         [Authorize]
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditProfile(EditProfileViewModel model)
+        [HttpPut("profile")]
+        public async Task<IActionResult> EditProfile([FromBody] EditProfileViewModel model)
         {
             if (!ModelState.IsValid)
-                return View(model);
+                return BadRequest(ModelState);
 
             var user = await _userManager.GetUserAsync(User);
 
             if (user == null)
-                return RedirectToAction("Login", "Account");
+                return Unauthorized(new { message = "Userul nu este autentificat." });
 
             var passwordValid = await _userManager.CheckPasswordAsync(user, model.Password);
 
             if (!passwordValid)
-            {
-                ModelState.AddModelError("Password", "Parola este incorecta.");
-                return View(model);
-            }
+                return BadRequest(new { message = "Parola este incorecta." });
 
-            
             user.PhoneNumber = model.Telephone;
 
             var updateUserResult = await _userManager.UpdateAsync(user);
 
             if (!updateUserResult.Succeeded)
-            {
-                foreach (var error in updateUserResult.Errors)
-                {
-                    ModelState.AddModelError("", error.Description);
-                }
-
-                return View(model);
-            }
-
+                return BadRequest(updateUserResult.Errors);
 
             var roles = await _userManager.GetRolesAsync(user);
             var role = roles.FirstOrDefault();
@@ -422,9 +240,65 @@ namespace AplicatieCatalog.Controllers
 
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("AccountProfile");
+            return Ok(new { message = "Profil actualizat cu succes." });
         }
 
+        [HttpPost("delete")]
+        public async Task<IActionResult> DeleteAccount([FromBody] DeleteAccountViewModel model)
+        {
+            if (model == null ||
+                string.IsNullOrWhiteSpace(model.Email) ||
+                string.IsNullOrWhiteSpace(model.Password))
+            {
+                return BadRequest(new { message = "Email si parola sunt obligatorii." });
+            }
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+                return NotFound(new { message = "Userul nu exista." });
+
+            var passwordValid = await _userManager.CheckPasswordAsync(user, model.Password);
+
+            if (!passwordValid)
+                return BadRequest(new { message = "Parola este incorecta." });
+
+            var student = await _context.Students
+                .FirstOrDefaultAsync(s => s.ApplicationUserId == user.Id);
+
+            if (student != null)
+            {
+                var grades = await _context.Grades
+                    .Where(g => g.StudentId == student.ID)
+                    .ToListAsync();
+
+                _context.Grades.RemoveRange(grades);
+                _context.Students.Remove(student);
+            }
+
+            var profesor = await _context.Profesori
+                .FirstOrDefaultAsync(p => p.ApplicationUserId == user.Id);
+
+            if (profesor != null)
+            {
+                var grades = await _context.Grades
+                    .Where(g => g.ProfesorId == profesor.ID)
+                    .ToListAsync();
+
+                _context.Grades.RemoveRange(grades);
+                _context.Profesori.Remove(profesor);
+            }
+
+            await _context.SaveChangesAsync();
+
+            var deleteUserResult = await _userManager.DeleteAsync(user);
+
+            if (!deleteUserResult.Succeeded)
+                return BadRequest(deleteUserResult.Errors);
+
+            await _signInManager.SignOutAsync();
+
+            return Ok(new { message = "Cont sters cu succes." });
+        }
     }
-    
 }
