@@ -8,7 +8,7 @@
 
 Aplicatie pentru gestionarea unui catalog cu studenti. 
 
-Acest proiect are ca si scop creearea unei aplicatii care propune gestionarea unui catalog de studenti. In cadrul acestei aplicatii sunt disponibile diverse **functionalitati**, in functie de rolul pe care il are utilizatorul. Partea de *frontend* este scrisa in : **HTML** si **JavaScript**, folosind **Razor Pages**, iar partea de *backend* este scrisa in **C#**, folosind **ASP.NET** si **Entity Framework**. 
+Acest proiect are ca si scop creearea unei aplicatii care propune gestionarea unui catalog de studenti. In cadrul acestei aplicatii sunt disponibile diverse **functionalitati**, in functie de rolul pe care il are utilizatorul. Partea de *frontend* este scrisa in : **HTML** si **JavaScript**, folosind **React**, iar partea de *backend* este scrisa in **C#**, folosind **ASP.NET** si **Entity Framework**. 
 Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu ajutorul **Microsoft SQL Server**. Mai multe detalii se pot gasi in fisierul **Deliverables2026.docx file**, sau **Deliverables2026_DX.pdf** care este documentatia proiectului/aplicatiei.
 
 **FUNCTIONALITATI :**
