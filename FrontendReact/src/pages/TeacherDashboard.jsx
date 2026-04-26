@@ -25,6 +25,20 @@ function TeacherDashboard() {
             >
                 Sterge Cont
             </button>
+
+            <br /><br />
+
+            <button
+                onClick={() => navigate(-2)}
+                style={{ backgroundColor: "green", color: "white" }}
+            >
+                Logout
+            </button>
+
+            <button onClick={() => navigate("/search")}>
+                Cauta utilizatori
+            </button>
+
         </div>
     );
 }

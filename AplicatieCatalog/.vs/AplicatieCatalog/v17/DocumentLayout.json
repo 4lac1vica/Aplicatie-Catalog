@@ -3,12 +3,123 @@
   "WorkspaceRootPath": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\admindashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\deleteaccount.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\mygrades.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iusersearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\search.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iaddgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\addgradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\usersearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\teacherdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\grades\\mygrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\grades\\mygrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\admin\\searchusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\admin\\searchusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\addgrade.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\grades\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -18,66 +129,33 @@
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\editprofile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\privacy.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\aboutus.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\teacherdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\grades\\mygrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\grades\\mygrades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\viewmodels\\deleteaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:viewmodels\\deleteaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\deleteaccount.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -92,24 +170,8 @@
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\anon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\anon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -117,10 +179,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -131,21 +189,10 @@
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\studentmain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\home\\teachermain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5CBF09-FD40-1024-1A99-70F40EB78EF1}|..\\FrontendReact\\frontendreact.esproj|d:\\anul3semestrul2\\ps\\proiect\\frontendreact\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
@@ -166,16 +213,7 @@
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iaddgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\addgradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\addgradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\dtos\\addmaterie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -187,22 +225,8 @@
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\iusersearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\admin\\stergematerie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\admin\\stergematerie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\views\\admin\\searchusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:views\\admin\\searchusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\materie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -227,9 +251,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\viewmodels\\applicationuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:viewmodels\\applicationuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\service\\usersearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -285,9 +306,6 @@
       "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\dtos\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D748435-6C38-4B1D-B167-C5F3D9106565}|..\\AplicatieCatalog.ManagementApi\\AplicatieCatalog.ManagementApi.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog.managementapi\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|d:\\anul3semestrul2\\ps\\proiect\\aplicatiecatalog\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{217BA5C2-1B9A-4550-B2FF-FE6F967CC340}|AplicatieCatalog.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -311,7 +329,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 22,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -319,31 +337,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DeleteAccountViewModel.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\DeleteAccountViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DeleteAccountViewModel.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\DeleteAccountViewModel.cs",
-              "RelativeToolTip": "ViewModels\\DeleteAccountViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:58:07.253Z"
+              "DocumentIndex": 0,
+              "Title": "AdminDashboard.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\AdminDashboard.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\AdminDashboard.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\AdminDashboard.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\AdminDashboard.jsx",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAUwKEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-26T11:58:16.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "StudentDashboard.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-24T16:44:24.25Z"
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T16:55:53.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T16:36:05.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAddGrades.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T09:54:46.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T17:55:00.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.css",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.css",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\App.css",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.css",
+              "RelativeToolTip": "..\\FrontendReact\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-24T16:15:44.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\App.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\App.jsx",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-24T17:04:05.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:55:07.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T17:39:29.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyGrades.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\MyGrades.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\MyGrades.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\MyGrades.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\MyGrades.jsx",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-26T05:47:58.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DeleteAccount.jsx",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\DeleteAccount.jsx",
               "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\DeleteAccount.jsx",
@@ -351,98 +475,112 @@
               "RelativeToolTip": "..\\FrontendReact\\src\\pages\\DeleteAccount.jsx",
               "ViewState": "AgIAAEsAAAAAAAAAAAAowHIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T17:42:58.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Register.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Register.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Register.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Register.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Register.jsx",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T16:03:08.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\App.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-24T17:04:05.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.css",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.css",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\App.css",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\App.css",
-              "RelativeToolTip": "..\\FrontendReact\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-24T16:15:44.992Z"
+              "WhenOpened": "2026-04-25T17:42:58.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Home.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Home.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Home.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Title": "IUserSearchService.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T09:54:47.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:15:51.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddGradesController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:56:12.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Search.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Search.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Search.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Search.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Search.jsx",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwGcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-24T16:40:39.462Z"
+              "WhenOpened": "2026-04-26T06:26:42.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Profile.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Profile.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Profile.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Profile.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Profile.jsx",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwD8AAAA+AAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "UserSearchService.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T10:18:27.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T09:43:25.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TeacherDashboard.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T19:16:44.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T15:48:21.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Grades\\Add.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\Add.cshtml",
-              "RelativeToolTip": "Views\\Grades\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:19:22.774Z",
-              "EditorCaption": ""
+              "DocumentIndex": 18,
+              "Title": "StudentDashboard.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\StudentDashboard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-24T16:44:24.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyGrades.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\MyGrades.cshtml",
-              "RelativeDocumentMoniker": "Views\\Grades\\MyGrades.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\MyGrades.cshtml",
-              "RelativeToolTip": "Views\\Grades\\MyGrades.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T10:13:53.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -450,48 +588,59 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:14:35.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T09:14:35.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "GradeController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\GradeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GradeController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\GradeController.cs",
+              "RelativeToolTip": "Controllers\\GradeController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAwwGgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:55:07.947Z"
+              "WhenOpened": "2026-04-18T08:16:12.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:14:38.753Z"
+              "DocumentIndex": 22,
+              "Title": "SearchUsers.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\SearchUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\SearchUsers.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\SearchUsers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\SearchUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T07:16:49.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EditProfile.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\EditProfile.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\EditProfile.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\EditProfile.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\EditProfile.jsx",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwIQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T19:42:22.329Z"
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T07:14:58.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
+              "Title": "AccountProfile.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\AccountProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccountProfile.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\AccountProfile.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccountProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:06:13.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "DeleteAccount.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\DeleteAccount.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\DeleteAccount.cshtml",
@@ -503,175 +652,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:06:10.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TeacherDashboard.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\TeacherDashboard.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T15:48:21.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Login.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Login.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Login.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Login.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Login.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T16:00:30.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "index.css",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\index.css",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\index.css",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\index.css",
-              "RelativeToolTip": "..\\FrontendReact\\src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-25T16:33:25.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T17:55:00.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GradeController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\GradeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GradeController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\GradeController.cs",
-              "RelativeToolTip": "Controllers\\GradeController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwCIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:16:12.675Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "SearchController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\SearchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\SearchController.cs",
-              "RelativeToolTip": "Controllers\\SearchController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAEwMoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:15:51.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T13:51:24.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T13:51:25.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T10:26:33.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Anon.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Anon.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Anon.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Anon.cshtml",
-              "RelativeToolTip": "Views\\Home\\Anon.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T10:18:22.405Z"
+              "WhenOpened": "2026-04-18T09:14:38.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T10:18:22.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:14:54.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AccountProfile.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\AccountProfile.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\AccountProfile.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\AccountProfile.cshtml",
-              "RelativeToolTip": "Views\\Account\\AccountProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:06:13.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "EditProfile.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\EditProfile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\EditProfile.cshtml",
@@ -683,27 +676,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\AboutUs.cshtml",
-              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
+              "DocumentIndex": 27,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:06:10.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-20T06:05:47.021Z"
+              "WhenOpened": "2026-04-18T09:14:54.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TeacherMain.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\TeacherMain.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
+              "RelativeToolTip": "Views\\Home\\TeacherMain.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:09:33.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentMain.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\StudentMain.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
+              "RelativeToolTip": "Views\\Home\\StudentMain.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:14:59.984Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "main.jsx",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\main.jsx",
-              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\main.jsx",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\main.jsx",
-              "RelativeToolTip": "..\\FrontendReact\\src\\main.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-24T16:15:47.094Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T10:18:22.92Z"
             },
             {
               "$type": "Document",
@@ -719,7 +748,223 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddGrade.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\AddGrade.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\AddGrade.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\AddGrade.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\AddGrade.jsx",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwJAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-26T06:12:46.186Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 34,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Grades\\Add.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\Add.cshtml",
+              "RelativeToolTip": "Views\\Grades\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T09:19:22.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EditProfile.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\EditProfile.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\EditProfile.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\EditProfile.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\EditProfile.jsx",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwIQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T19:42:22.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Register.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Register.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Register.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Register.jsx",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T16:03:08.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Profile.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Profile.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Profile.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Profile.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Profile.jsx",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T19:16:44.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Login.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Login.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Login.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Login.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T16:00:30.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Home.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Home.jsx",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-24T16:40:39.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AboutUs.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\AboutUs.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\AboutUs.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\AboutUs.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\AboutUs.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-26T04:07:35.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Privacy.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Privacy.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\pages\\Privacy.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\pages\\Privacy.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\pages\\Privacy.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-26T04:10:27.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MyGrades.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\MyGrades.cshtml",
+              "RelativeDocumentMoniker": "Views\\Grades\\MyGrades.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Grades\\MyGrades.cshtml",
+              "RelativeToolTip": "Views\\Grades\\MyGrades.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T10:13:53.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DeleteAccountViewModel.cs",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\DeleteAccountViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DeleteAccountViewModel.cs",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\DeleteAccountViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DeleteAccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:58:07.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\index.css",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\index.css",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\index.css",
+              "RelativeToolTip": "..\\FrontendReact\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-25T16:33:25.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T13:51:24.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T13:51:25.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T10:26:33.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Anon.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Anon.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Anon.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\Anon.cshtml",
+              "RelativeToolTip": "Views\\Home\\Anon.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T10:18:22.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T06:05:47.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "main.jsx",
+              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\main.jsx",
+              "RelativeDocumentMoniker": "..\\FrontendReact\\src\\main.jsx",
+              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\src\\main.jsx",
+              "RelativeToolTip": "..\\FrontendReact\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-24T16:15:47.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -731,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 51,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -743,31 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "StudentMain.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\StudentMain.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\StudentMain.cshtml",
-              "RelativeToolTip": "Views\\Home\\StudentMain.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:14:59.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "TeacherMain.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\TeacherMain.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Home\\TeacherMain.cshtml",
-              "RelativeToolTip": "Views\\Home\\TeacherMain.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T09:09:33.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "eslint.config.js",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\eslint.config.js",
               "RelativeDocumentMoniker": "..\\FrontendReact\\eslint.config.js",
@@ -779,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "CHANGELOG.md",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\CHANGELOG.md",
               "RelativeDocumentMoniker": "..\\FrontendReact\\CHANGELOG.md",
@@ -791,7 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 55,
               "Title": "README.md",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\README.md",
               "RelativeDocumentMoniker": "..\\FrontendReact\\README.md",
@@ -803,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 56,
               "Title": "index.html",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\index.html",
               "RelativeDocumentMoniker": "..\\FrontendReact\\index.html",
@@ -815,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 57,
               "Title": "favicon.svg",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\public\\favicon.svg",
               "RelativeDocumentMoniker": "..\\FrontendReact\\public\\favicon.svg",
@@ -827,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 58,
               "Title": "icons.svg",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\public\\icons.svg",
               "RelativeDocumentMoniker": "..\\FrontendReact\\public\\icons.svg",
@@ -839,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 59,
               "Title": "vite.config.js",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\FrontendReact\\vite.config.js",
               "RelativeDocumentMoniker": "..\\FrontendReact\\vite.config.js",
@@ -851,31 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "AddGradesController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AddGradesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:56:12.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T17:39:29.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 60,
               "Title": "AdminService.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\AdminService.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\AdminService.cs",
@@ -887,31 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IAddGrades.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IAddGrades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:54:46.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvyYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T16:55:53.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 62,
               "Title": "AddMaterie.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\AddMaterie.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\AddMaterie.cs",
@@ -923,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 61,
               "Title": "AddGradeService.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\AddGradeService.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\AddGradeService.cs",
@@ -935,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 63,
               "Title": "DeleteUser.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\DeleteUser.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\DeleteUser.cs",
@@ -947,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 64,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\UserDTO.cs",
@@ -959,55 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T16:36:05.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "IUserSearchService.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\IUserSearchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:54:47.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-19T07:14:58.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "SearchUsers.cshtml",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\SearchUsers.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\SearchUsers.cshtml",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\SearchUsers.cshtml",
-              "RelativeToolTip": "Views\\Admin\\SearchUsers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-19T07:16:49.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "AddMaterieViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\AddMaterieViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\AddMaterieViewModel.cs",
@@ -1019,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 66,
               "Title": "Materie.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Materie.cs",
               "RelativeDocumentMoniker": "Models\\Materie.cs",
@@ -1031,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "StergeMaterie.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\StergeMaterie.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\StergeMaterie.cshtml",
@@ -1043,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 68,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
@@ -1055,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 69,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
@@ -1067,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 70,
               "Title": "AddMaterie.cshtml",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Views\\Admin\\AddMaterie.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\AddMaterie.cshtml",
@@ -1079,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 71,
               "Title": "ApplicationUserViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\ApplicationUserViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ApplicationUserViewModel.cs",
@@ -1091,19 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "UserSearchService.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Service\\UserSearchService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T10:18:27.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 72,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -1115,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 73,
               "Title": "Profesor.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Profesor.cs",
               "RelativeDocumentMoniker": "Models\\Profesor.cs",
@@ -1127,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "Nota.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\Nota.cs",
               "RelativeDocumentMoniker": "Models\\Nota.cs",
@@ -1139,7 +1252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 75,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -1151,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "StudentGradeDTO.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\StudentGradeDTO.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\StudentGradeDTO.cs",
@@ -1163,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "AddGradeDTO.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\AddGradeDTO.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\AddGradeDTO.cs",
@@ -1175,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "UserSearchPageViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\UserSearchPageViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserSearchPageViewModel.cs",
@@ -1187,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "StudentGradeViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\StudentGradeViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\StudentGradeViewModel.cs",
@@ -1199,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "UserSearchViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\UserSearchViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserSearchViewModel.cs",
@@ -1211,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "EditProfileViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\EditProfileViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\EditProfileViewModel.cs",
@@ -1223,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "AddGradesViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\AddGradesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\AddGradesViewModel.cs",
@@ -1235,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 83,
               "Title": "AddGradeRequest.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\AddGradeRequest.cs",
               "RelativeDocumentMoniker": "ViewModels\\AddGradeRequest.cs",
@@ -1247,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 84,
               "Title": "AccountProfileViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\ViewModels\\AccountProfileViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\AccountProfileViewModel.cs",
@@ -1259,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 85,
               "Title": "UserAdmin.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\DTOs\\UserAdmin.cs",
               "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\DTOs\\UserAdmin.cs",
@@ -1271,19 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "SearchController.cs",
-              "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
-              "RelativeDocumentMoniker": "..\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
-              "ToolTip": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
-              "RelativeToolTip": "..\\AplicatieCatalog.ManagementApi\\Controllers\\SearchController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:43:25.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 86,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -1295,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 87,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -1307,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 88,
               "Title": "20260418064911_AddGrades.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\20260418064911_AddGrades.cs",
               "RelativeDocumentMoniker": "Migrations\\20260418064911_AddGrades.cs",
@@ -1319,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 89,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\anul3Semestrul2\\PS\\Proiect\\AplicatieCatalog\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",

@@ -1,48 +1,56 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using AplicatieCatalog.ViewModels;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
+using AplicatieCatalog.Data;
 
 
 namespace AplicatieCatalog.Controllers
 {
-    public class SearchController : Controller
+
+
+    [ApiController]
+    [Route("api/[controller]")]
+    public class SearchController : ControllerBase
     {
         private readonly HttpClient _httpClient;
+       
         
         public SearchController(IHttpClientFactory httpClientFactory)
         {
             _httpClient = httpClientFactory.CreateClient();
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Users (string query)
+        [HttpGet("users")]
+        public async Task<IActionResult> Users([FromQuery] string query)
         {
-            var model = new UserSearchPageViewModel
-            {
-                Query = query
-            };
-
             if (string.IsNullOrWhiteSpace(query))
-                return View(model);
+                return Ok(new List<UserSearchViewModel>());
 
-            var apiUrl = $"https://localhost:7197/api/Search/users?query={Uri.EscapeDataString(query)}";
+            var apiUrl = $"https://localhost:7197/api/user-search/users?query={Uri.EscapeDataString(query)}"; ;
+
             var response = await _httpClient.GetAsync(apiUrl);
 
-            if (response.IsSuccessStatusCode)
+            if (!response.IsSuccessStatusCode)
             {
-                var json = await response.Content.ReadAsStringAsync();
-
-                var users = JsonSerializer.Deserialize<List<UserSearchViewModel>>(json,
-                    new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
-
-                model.Results = users ?? new List<UserSearchViewModel>();
+                return BadRequest(new { message = "Nu se pot incarca utilizatorii!" });
             }
 
-            return View(model);
+            var json = await response.Content.ReadAsStringAsync();
+
+            var users = JsonSerializer.Deserialize<List<UserSearchViewModel>>(
+                json,
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }
+
+            );
+
+            return Ok(users ?? new List<UserSearchViewModel>());
+
         }
-        
+
+
     }
 }

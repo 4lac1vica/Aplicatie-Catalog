@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AplicatieCatalog.ManagementApi.Controllers
 {
         [ApiController]
-        [Route("api/[controller]")]
+        [Route("api/user-search")]
         public class SearchController : ControllerBase
         {
             private readonly IUserSearchService _userSearchService;

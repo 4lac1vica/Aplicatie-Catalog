@@ -8,10 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 
 
+
 namespace AplicatieCatalog.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     [Authorize(Roles = "Admin")]
-    public class AdminController : Controller
+    public class AdminController : ControllerBase
     {
 
         private readonly ApplicationDbContext _context;
@@ -23,49 +26,47 @@ namespace AplicatieCatalog.Controllers
             _userManager = userManager;
         }
 
-        [HttpGet]
+        [HttpGet("users")]
         public async Task<IActionResult> SearchUsers(string term)
         {
-            List<ApplicationUserViewModel> users = new();
-
-            if (!string.IsNullOrWhiteSpace(term))
+            if (string.IsNullOrWhiteSpace(term))
             {
-                users = await _userManager.Users
-                     .Where(u =>
-                     u.Email.Contains(term) ||
-                     u.FirstName.Contains(term) ||
-                     u.LastName.Contains(term))
-                     .Select(u => new ApplicationUserViewModel
-                     {
-                         Id = u.Id,
-                         Email = u.Email
-                     })
-                     .ToListAsync();
+                return Ok(new List<ApplicationUserViewModel>());
             }
 
-            ViewBag.Term = term;
-            return View(users);
+            var users = await _userManager.Users
+                .Where(u =>
+                    u.Email.Contains(term) ||
+                    u.FirstName.Contains(term) ||
+                    u.LastName.Contains(term))
+                .Select(u => new ApplicationUserViewModel
+                {
+                    Id = u.Id,
+                    Email = u.Email
+                })
+                .ToListAsync();
+
+            return Ok(users);
         }
 
-        [HttpPost]
+        [HttpDelete("users/{userId}")]
         public async Task<IActionResult> DeleteUser(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
 
             if (user == null)
-            {
-                TempData["Error"] = "Userul nu exista.";
-                return RedirectToAction("SearchUsers");
-            }
+                return NotFound(new { message = "Userul nu exista!" });
 
-            var student = await _context.Students.FirstOrDefaultAsync(s => s.ApplicationUserId == userId);
+            var student = await _context.Students
+                .FirstOrDefaultAsync(s => s.ApplicationUserId == userId);
 
             if (student != null)
             {
                 _context.Students.Remove(student);
             }
 
-            var profesor = await _context.Profesori.FirstOrDefaultAsync(p => p.ApplicationUserId == userId);
+            var profesor = await _context.Profesori
+                .FirstOrDefaultAsync(p => p.ApplicationUserId == userId);
 
             if (profesor != null)
             {
@@ -77,41 +78,40 @@ namespace AplicatieCatalog.Controllers
             var result = await _userManager.DeleteAsync(user);
 
             if (!result.Succeeded)
-            {
-                TempData["Error"] = "Stergerea a esuat!";
-            }
+                return BadRequest(new { message = "Stergerea a esuat!" });
 
-            return RedirectToAction("SearchUsers");
+            return Ok(new { message = "Userul a fost sters cu succes!" });
+
         }
 
-        [HttpGet]
-        public IActionResult AddMaterie()
+        [HttpGet("materii")]
+        public async Task<IActionResult> GetMaterii()
         {
-            return View();
+            var materii = await _context.Materii
+                .Select(m => new
+                {
+                    id = m.Id,
+                    nume = m.Nume
+                })
+                .ToListAsync();
+
+            return Ok(materii);
         }
 
-        [HttpGet]
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-
-
-        [HttpPost]
-        public async Task<IActionResult> AddMaterie(AddMaterieViewModel model)
+        [HttpPost("materii")]
+        public async Task<IActionResult> AddMaterie([FromBody] AddMaterieViewModel model)
         {
             if (!ModelState.IsValid)
             {
-                return View(model);
+                return BadRequest(ModelState);
             }
 
-            var exista = await _context.Materii.AnyAsync(m => m.Nume == model.Nume);
+            var exista = await _context.Materii
+                .AnyAsync(m => m.Nume == model.Nume);
 
             if (exista)
             {
-                ModelState.AddModelError("Nume", "Materia exista deja!!");
-                return View(model);
+                return BadRequest(new { message = "Materia exista deja!" });
             }
 
             var materie = new Materie
@@ -122,41 +122,24 @@ namespace AplicatieCatalog.Controllers
             _context.Materii.Add(materie);
             await _context.SaveChangesAsync();
 
-            TempData["Success"] = "Materia a fost adaugata!!";
-            return RedirectToAction("AddMaterie");
-
-
+            return Ok(new { message = "Materia a fost deja adaugata!" });
         }
 
-        [HttpGet]
-        public async Task<IActionResult> StergeMaterie()
+        [HttpDelete("materii/{materieId}")]
+        public async Task<IActionResult> DeleteMaterie(int materieId)
         {
-            var materii = await _context.Materii.ToListAsync();
-            return View(materii);
-        }
+            var materie = await _context.Materii
+                .FirstOrDefaultAsync(m => m.Id == materieId);
 
-
-        [HttpPost]
-        public async Task<IActionResult> StergeMaterie(int MaterieId)
-        {
-
-            var materie = await _context.Materii.FirstOrDefaultAsync(m => m.Id == MaterieId);
-            
             if (materie == null)
             {
-                TempData["Error"] = "Materia nu exista!";
-                return RedirectToAction("Index");
+                return NotFound(new { message = "Materia nu exista!" });
             }
 
             _context.Materii.Remove(materie);
             await _context.SaveChangesAsync();
 
-            TempData["Succes"] = "Materia a fost stearsa!";
-            return RedirectToAction("Index");
-
+            return Ok(new { message = "Materia a fost stearsa!" });
         }
-
-
-
     }
 }

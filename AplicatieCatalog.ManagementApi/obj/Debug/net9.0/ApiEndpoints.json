@@ -148,6 +148,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AplicatieCatalog.Controllers.AdminController",
+    "Method": "GetMaterii",
+    "RelativePath": "api/Admin/materii",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.AdminController",
+    "Method": "AddMaterie",
+    "RelativePath": "api/Admin/materii",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AplicatieCatalog.ViewModels.AddMaterieViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.AdminController",
+    "Method": "DeleteMaterie",
+    "RelativePath": "api/Admin/materii/{materieId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "materieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.AdminController",
     "Method": "SearchUsers",
     "RelativePath": "api/Admin/search-users",
@@ -161,6 +203,74 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.AdminController",
+    "Method": "SearchUsers",
+    "RelativePath": "api/Admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "term",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/users/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.GradesController",
+    "Method": "AddGrade",
+    "RelativePath": "api/Grades/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AplicatieCatalog.ViewModels.AddGradesViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.GradesController",
+    "Method": "GetAddGradeData",
+    "RelativePath": "api/Grades/add-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.GradesController",
+    "Method": "MyGrades",
+    "RelativePath": "api/Grades/my-grades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -214,9 +324,25 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AplicatieCatalog.Controllers.SearchController",
+    "Method": "Users",
+    "RelativePath": "api/Search/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.ManagementApi.Controllers.SearchController",
     "Method": "SearchUsers",
-    "RelativePath": "api/Search/users",
+    "RelativePath": "api/user-search/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

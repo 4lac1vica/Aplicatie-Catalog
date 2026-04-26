@@ -25,6 +25,19 @@ function StudentDashboard() {
             >
                 Sterge Cont
             </button>
+
+            <button 
+                onClick={() => navigate(-2)}
+                style={{backgroundColor: "green", color:"white"} }
+            >
+                Logout
+            </button>
+
+            <button onClick={() => navigate("/search")}>
+                Cauta utilizatori
+            </button>
+
+
         </div>
     );
 }

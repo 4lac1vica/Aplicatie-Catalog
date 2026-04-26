@@ -15,6 +15,7 @@ namespace AplicatieCatalog.ManagementApi.Controllers
         public AddGradesController(IAddGrades gradeService)
         {
             _gradeService = gradeService;
+
         }
 
         [HttpPost]

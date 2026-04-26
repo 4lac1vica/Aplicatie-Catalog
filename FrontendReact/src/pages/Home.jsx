@@ -1,35 +1,86 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home() {
     const navigate = useNavigate();
 
+    const linkStyle = {
+        color: "white",
+        textDecoration: "none",
+        marginRight: "15px",
+        fontWeight: "bold"
+    };
+
     return (
-        <div style={{ textAlign: "center", marginTop: "50px" }}>
-            <h1>Bine ai venit in cataLOG</h1>
-            <p>Aplicatia ta pentru gestionarea catalogului.</p>
+        <>
 
-            <h2>Select the role you want to log in as:</h2>
+            <div
+                style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    padding: "15px 30px",
+                    backgroundColor: "#111",
+                    color: "white"
+                }}
+            >
+                <h3 style={{ margin: 0 }}>Catalog App</h3>
 
-            <button onClick={() => navigate("/login?role=Student")}>
-                Student
-            </button>
+                <div>
+                    <Link to="/about" style={linkStyle}>
+                        About Us
+                    </Link>
+                    <Link to="/privacy" style={linkStyle}>
+                        Privacy
+                    </Link>
+                </div>
+            </div>
 
-            <button onClick={() => navigate("/login?role=Teacher")}>
-                Teacher
-            </button>
+            
+            <div style={{ textAlign: "center", marginTop: "80px" }}>
+                <h1>Bine ai venit!</h1>
 
-            <h3>Don't have an account? Sign Up!</h3>
+                <p>Aplicatie pentru gestionarea catalogului scolar.</p>
 
-            <button onClick={() => navigate("/register")}>
-                Sign Up
-            </button>
+                <div style={{ marginTop: "30px" }}>
+                    <h2>Selecteaza rolul:</h2>
 
-            <h4>Continue anonymously</h4>
+                    <button
+                        onClick={() => navigate("/login?role=Student")}
+                        style={{
+                            padding: "10px 20px",
+                            marginRight: "10px",
+                            cursor: "pointer"
+                        }}
+                    >
+                        Login as Student
+                    </button>
 
-            <button onClick={() => navigate("/guest")}>
-                Continue Unregistered
-            </button>
-        </div>
+                    <button
+                        onClick={() => navigate("/login?role=Teacher")}
+                        style={{
+                            padding: "10px 20px",
+                            cursor: "pointer"
+                        }}
+                    >
+                        Login as Teacher
+                    </button>
+
+                    <h3 style={{ marginTop: "40px" }}>
+                        Nu ai cont?
+                    </h3>
+
+                    <button
+                        onClick={() => navigate("/register")}
+                        style={{
+                            padding: "10px 20px",
+                            cursor: "pointer"
+                        }}
+                    >
+                        Register
+                    </button>
+                </div>
+            </div>
+        </>
     );
 }
 

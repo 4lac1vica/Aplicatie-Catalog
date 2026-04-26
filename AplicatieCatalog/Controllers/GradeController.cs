@@ -11,8 +11,10 @@ using System.Text.Json;
 
 namespace AplicatieCatalog.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     [Authorize]
-    public class GradesController : Controller
+    public class GradesController : ControllerBase
     {
         private readonly HttpClient _httpClient;
         private readonly ApplicationDbContext _context;
@@ -24,54 +26,41 @@ namespace AplicatieCatalog.Controllers
         }
 
         [Authorize(Roles = "Teacher")]
-        [HttpGet]
-        public async Task<IActionResult> Add()
+        [HttpGet("add-data")]
+        public async Task<IActionResult> GetAddGradeData()
         {
-            var model = new AddGradesViewModel
+            var students = await _context.Students
+                .Select(s => new
+                {
+                    id = s.ID,
+                    fullName = s.FirstName + " " + s.LastName
+                })
+                .ToListAsync();
+
+
+            var materii = await _context.Materii
+                .Select(m => new
+                {
+                    id = m.Id,
+                    nume = m.Nume
+                })
+                .ToListAsync();
+
+
+            return Ok(new
             {
-                Students = await _context.Students
-                .Select(s => new SelectListItem
-                {
-                    Value = s.ID.ToString(),
-                    Text = s.FirstName + " " + s.LastName
-                })
-                .ToListAsync(),
-
-
-                Materii = await _context.Materii
-                .Select(m => new SelectListItem
-                {
-                    Value = m.Id.ToString(),
-                    Text = m.Nume
-                })
-                .ToListAsync()
-            };
-
-            return View(model);
+                students,
+                materii
+            });
         }
 
         [Authorize(Roles = "Teacher")]
-        [HttpPost]
-        public async Task<IActionResult> Add(AddGradesViewModel model)
+        [HttpPost("add")]
+        public async Task<IActionResult> AddGrade([FromBody] AddGradesViewModel model)
         {
             if (!ModelState.IsValid)
             {
-                model.Students = await _context.Students
-                    .Select(s => new SelectListItem
-                    {
-                        Value = s.ID.ToString(),
-                        Text = s.FirstName + " " + s.LastName
-                    })
-                    .ToListAsync();
-
-                model.Materii = await _context.Materii
-                    .Select(m => new SelectListItem
-                    {
-                        Value = m.Id.ToString(),
-                        Text = m.Nume
-                    })
-                    .ToListAsync();
-                return View(model);
+                return BadRequest(ModelState);
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -79,29 +68,9 @@ namespace AplicatieCatalog.Controllers
             var profesor = await _context.Profesori
                 .FirstOrDefaultAsync(p => p.ApplicationUserId == userId);
 
-
             if (profesor == null)
             {
-                ModelState.AddModelError(string.Empty, "Profesorul nu a fost gasit!");
-
-                model.Students = await _context.Students
-                    .Select(s => new SelectListItem
-                    {
-                        Value = s.ID.ToString(),
-                        Text = s.FirstName + " " + s.LastName
-                    })
-                    .ToListAsync();
-
-                model.Materii = await _context.Materii
-                    .Select(m => new SelectListItem
-                    {
-                        Value = m.Id.ToString(),
-                        Text = m.Nume
-                    })
-                    .ToListAsync();
-
-                return View(model);
-
+                return NotFound(new { message = "Profesorul nu a fost gasit!" });
             }
 
             var request = new AddGradeRequest
@@ -110,46 +79,27 @@ namespace AplicatieCatalog.Controllers
                 ProfesorId = profesor.ID,
                 MaterieId = model.MaterieId,
                 Valoare = model.Valoare
+
             };
 
-
             var response = await _httpClient.PostAsJsonAsync(
-                    "https://localhost:7197/api/AddGrades",
-                    request
-                );
+                "https://localhost:7197/api/AddGrades",
+                request
+            );
 
-            if (response.IsSuccessStatusCode)
+            if (!response.IsSuccessStatusCode)
             {
-                TempData["Succes"] = "Nota a fost adaugata cu succes!";
-                return RedirectToAction(nameof(Add));
+                var errorMessage = await response.Content.ReadAsStringAsync();
+                return BadRequest(new { message = errorMessage });
             }
 
-            var errorMessage = await response.Content.ReadAsStringAsync();
-            ModelState.AddModelError(string.Empty, errorMessage);
+            return Ok(new { message = "Nota a fost adaugata cu succes!" });
 
-            model.Students = await _context.Students
-                .Select(s => new SelectListItem
-                {
-                    Value = s.ID.ToString(),
-                    Text = s.FirstName + " " + s.LastName
-                })
-                .ToListAsync();
-
-            model.Materii = await _context.Materii
-                .Select(m => new SelectListItem
-                {
-                    Value = m.Id.ToString(),
-                    Text = m.Nume
-                })
-                .ToListAsync();
-
-
-            return View(model);
 
         }
 
         [Authorize(Roles = "Student")]
-        [HttpGet]
+        [HttpGet("my-grades")]
         public async Task<IActionResult> MyGrades()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -159,7 +109,7 @@ namespace AplicatieCatalog.Controllers
 
             if (student == null)
             {
-                return NotFound("Studentul nu a putut sa fie gasit");
+                return NotFound(new { message = "Studentul nu a fost gasit!" });
             }
 
             var apiUrl = $"https://localhost:7197/api/AddGrades/student/{student.ID}";
@@ -168,19 +118,21 @@ namespace AplicatieCatalog.Controllers
 
             if (!response.IsSuccessStatusCode)
             {
-                ViewBag.Error = "Nu se pot incarca notele!!";
-                return View(new List<StudentGradeViewModel>());
+                return BadRequest(new { message = "Nu se pot incarca notele." });
             }
 
             var json = await response.Content.ReadAsStringAsync();
 
-            var grades = JsonSerializer.Deserialize<List<StudentGradeViewModel>>(json,
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
+            var grades = JsonSerializer.Deserialize<List<StudentGradeViewModel>>(
+                    json,
+                    new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    }
 
-            return View(grades ?? new List<StudentGradeViewModel>());
+                );
+
+            return Ok(grades ?? new List<StudentGradeViewModel>());
 
 
 

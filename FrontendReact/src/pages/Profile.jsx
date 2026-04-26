@@ -68,6 +68,9 @@ function Profile() {
             <button onClick={() => navigate(-1)}>
                 Inapoi
             </button>
+
+
+
         </div>
     );
 }
