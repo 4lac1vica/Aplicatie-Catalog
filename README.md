@@ -1,6 +1,6 @@
 # cataLOG
 
-**Tools : Visual Studio (IDE), ASP.NET, Entity Framework, Razor.** 
+**Tools : Visual Studio (IDE), ASP.NET, Entity Framework, REACT.** 
 
 [jump to **ENGLISH** README](https://github.com/4lac1vica/Aplicatie-Catalog?tab=readme-ov-file#en)
 
