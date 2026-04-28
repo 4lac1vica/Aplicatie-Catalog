@@ -5,6 +5,115 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Absences": {
+      "post": {
+        "tags": [
+          "Absences"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddAbsenceDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddAbsenceDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddAbsenceDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Absences/student/{studentId}": {
+      "get": {
+        "tags": [
+          "Absences"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Absente/add-absenta-data": {
+      "get": {
+        "tags": [
+          "Absente"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Absente/add-absenta": {
+      "post": {
+        "tags": [
+          "Absente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AbsentaViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AbsentaViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AbsentaViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Absente/my-absences": {
+      "get": {
+        "tags": [
+          "Absente"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Account/register": {
       "post": {
         "tags": [
@@ -546,6 +655,68 @@
   },
   "components": {
     "schemas": {
+      "AbsentaViewModel": {
+        "required": [
+          "materieId",
+          "studentId"
+        ],
+        "type": "object",
+        "properties": {
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "materieId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "materie": {
+            "type": "string",
+            "nullable": true
+          },
+          "profesor": {
+            "type": "string",
+            "nullable": true
+          },
+          "students": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SelectListItem"
+            },
+            "nullable": true
+          },
+          "materii": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SelectListItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddAbsenceDTO": {
+        "type": "object",
+        "properties": {
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "materieId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "profesorId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "AddGradeDTO": {
         "type": "object",
         "properties": {

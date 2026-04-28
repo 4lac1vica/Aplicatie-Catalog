@@ -13,6 +13,8 @@ import MyGrades from "./pages/MyGrades";
 import AddGrade from "./pages/AddGrade";
 import Search from "./pages/Search";
 import AdminDashboard from "./pages/AdminDashboard";
+import AddAbsences from "./pages/AddAbsences";
+import MyAbsences from "./pages/MyAbsences";
 
 function App() {
     return (
@@ -32,6 +34,8 @@ function App() {
                 <Route path="/add-grade" element={<AddGrade />} />
                 <Route path="/search" element={<Search />} />
                 <Route path="/admin" element={<AdminDashboard />} />
+                <Route path="/add-absenta" element={<AddAbsences />} />
+                <Route path="/my-absente" element={<MyAbsences />} />
             </Routes>
         </BrowserRouter>
     );

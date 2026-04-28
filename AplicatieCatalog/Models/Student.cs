@@ -16,6 +16,7 @@ namespace AplicatieCatalog.Models
         public ApplicationUser ApplicationUser { get; set; }
 
         public List<Nota> Note { get; set; }
+        public List<Absenta> Absente { get; set; }
 
         
 

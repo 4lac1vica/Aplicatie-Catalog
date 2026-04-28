@@ -39,6 +39,10 @@ function TeacherDashboard() {
                 Cauta utilizatori
             </button>
 
+            <button onClick={() => navigate("/add-absenta")}>
+                Adauga Absenta
+            </button>
+
         </div>
     );
 }

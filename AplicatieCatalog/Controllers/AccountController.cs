@@ -147,7 +147,7 @@ namespace AplicatieCatalog.Controllers
             return Ok(new { message = "Logout reusit." });
         }
 
-       // [Authorize]
+       
         [HttpGet("profile")]
         public async Task<IActionResult> AccountProfile()
         {

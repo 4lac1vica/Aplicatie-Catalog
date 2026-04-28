@@ -6,6 +6,8 @@
        public string Nume { get; set; }
        
        public List<Nota> Note { get; set; } 
+
+       public List<Absenta> Absente { get; set; } 
        
     }
 }

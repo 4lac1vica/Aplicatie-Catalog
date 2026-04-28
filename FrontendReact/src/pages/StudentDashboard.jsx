@@ -37,6 +37,10 @@ function StudentDashboard() {
                 Cauta utilizatori
             </button>
 
+            <button onClick={() => navigate("/my-absente")}>
+                Vezi Absente
+            </button>
+
 
         </div>
     );

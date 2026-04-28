@@ -1,6 +1,7 @@
 ﻿using AplicatieCatalog.Data;
 using AplicatieCatalog.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,44 +9,42 @@ using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Text.Json;
 
-
 namespace AplicatieCatalog.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
-    public class GradesController : ControllerBase
+    [ApiController]
+    public class AbsenteController : ControllerBase
     {
         private readonly HttpClient _httpClient;
         private readonly ApplicationDbContext _context;
 
-        public GradesController(IHttpClientFactory httpClientFactory, ApplicationDbContext context)
+        public AbsenteController(IHttpClientFactory httpClient, ApplicationDbContext context)
         {
-            _httpClient = httpClientFactory.CreateClient();
             _context = context;
+            _httpClient = httpClient.CreateClient();
         }
 
+
         [Authorize(Roles = "Teacher")]
-        [HttpGet("add-data")]
-        public async Task<IActionResult> GetAddGradeData()
+        [HttpGet("add-absenta-data")]
+        public async Task<IActionResult> getAddAbsentaData()
         {
+
             var students = await _context.Students
                 .Select(s => new
                 {
                     id = s.ID,
-                    fullName = s.FirstName + " " + s.LastName
+                    fullname = s.LastName + " " + s.FirstName
                 })
                 .ToListAsync();
-
 
             var materii = await _context.Materii
                 .Select(m => new
                 {
                     id = m.Id,
-                    nume = m.Nume
+                    name = m.Nume
                 })
                 .ToListAsync();
-
 
             return Ok(new
             {
@@ -55,8 +54,8 @@ namespace AplicatieCatalog.Controllers
         }
 
         [Authorize(Roles = "Teacher")]
-        [HttpPost("add")]
-        public async Task<IActionResult> AddGrade([FromBody] AddGradesViewModel model)
+        [HttpPost("add-absenta")]
+        public async Task<IActionResult> AddAbsenta([FromBody] AbsentaViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -64,6 +63,7 @@ namespace AplicatieCatalog.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
 
             var profesor = await _context.Profesori
                 .FirstOrDefaultAsync(p => p.ApplicationUserId == userId);
@@ -73,19 +73,19 @@ namespace AplicatieCatalog.Controllers
                 return NotFound(new { message = "Profesorul nu a fost gasit!" });
             }
 
-            var request = new AddGradeRequest
+            var request = new AbsenteRequest
             {
                 StudentId = model.StudentId,
                 ProfesorId = profesor.ID,
-                MaterieId = model.MaterieId,
-                Valoare = model.Valoare
+                MaterieId = model.MaterieId
 
             };
 
             var response = await _httpClient.PostAsJsonAsync(
-                "https://localhost:7197/api/AddGrades",
-                request
-            );
+
+                   "https://localhost:7197/api/Absences",
+                    request
+                );
 
             if (!response.IsSuccessStatusCode)
             {
@@ -93,13 +93,12 @@ namespace AplicatieCatalog.Controllers
                 return BadRequest(new { message = errorMessage });
             }
 
-            return Ok(new { message = "Nota a fost adaugata cu succes!" });
-
-
+            return Ok(new { message = "Absenta adaugata cu succes!" });
         }
 
+
         [Authorize(Roles = "Student")]
-        [HttpGet("my-grades")]
+        [HttpGet("my-absences")]
         public async Task<IActionResult> MyGrades()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -109,21 +108,22 @@ namespace AplicatieCatalog.Controllers
 
             if (student == null)
             {
-                return NotFound(new { message = "Studentul nu a fost gasit!" });
+                return NotFound(new { errorMessage = "Studentul nu a fost gasit!" });
             }
 
-            var apiUrl = $"https://localhost:7197/api/AddGrades/student/{student.ID}";
+            var apiUrl = $"https://localhost:7197/api/Absences/student/{student.ID}";
 
             var response = await _httpClient.GetAsync(apiUrl);
 
             if (!response.IsSuccessStatusCode)
             {
-                return BadRequest(new { message = "Nu se pot incarca notele." });
+                return BadRequest(new {message = "Eroare la request!"});
             }
 
             var json = await response.Content.ReadAsStringAsync();
 
-            var grades = JsonSerializer.Deserialize<List<StudentGradeViewModel>>(
+            var absences = JsonSerializer.Deserialize<List<AbsentaViewModel>>(
+
                     json,
                     new JsonSerializerOptions
                     {
@@ -132,13 +132,8 @@ namespace AplicatieCatalog.Controllers
 
                 );
 
-            return Ok(grades ?? new List<StudentGradeViewModel>());
+            return Ok(absences ?? new List <AbsentaViewModel>());
         }
-
-       
-        
-
-
 
     }
 }

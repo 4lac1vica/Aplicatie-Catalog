@@ -1,5 +1,41 @@
 [
   {
+    "ContainingType": "AplicatieCatalog.Controllers.AbsenteController",
+    "Method": "AddAbsenta",
+    "RelativePath": "api/Absente/add-absenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AplicatieCatalog.ViewModels.AbsentaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.AbsenteController",
+    "Method": "getAddAbsentaData",
+    "RelativePath": "api/Absente/add-absenta-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicatieCatalog.Controllers.AbsenteController",
+    "Method": "MyGrades",
+    "RelativePath": "api/Absente/my-absences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.Controllers.AccountController",
     "Method": "DeleteAccount",
     "RelativePath": "api/Account/delete",

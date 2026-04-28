@@ -16,6 +16,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 builder.Services.AddScoped<IUserSearchService, UserSearchService>();
 builder.Services.AddScoped<IAddGrades, AddGradeService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IAbsences, AbsencesService>();
 
 builder.Services.AddHttpClient();
 

@@ -33,7 +33,12 @@ namespace AplicatieCatalog.ManagementApi.Service
             {
                 var roles = await _userManager.GetRolesAsync(user);
 
+            
+
+
                 var visibleRole = roles.FirstOrDefault(r => r != "Admin") ?? "No role";
+
+             
 
                 result.Add(new UserDTO
                 {
