@@ -1,6 +1,6 @@
 # cataLOG
 
-**Tools : Visual Studio (IDE), ASP.NET, Entity Framework, Razor.** 
+**Tools : Visual Studio (IDE), ASP.NET, Entity Framework, REACT.** 
 
 [jump to **ENGLISH** README](https://github.com/4lac1vica/Aplicatie-Catalog?tab=readme-ov-file#en)
 
@@ -22,7 +22,10 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
    - Inregistrare
    - Vede Detaliile Profilului 
    - Cauta/Vede alti utilizatori
+   - Vede Absente 
+   - Primeste Notificari
 
+   
 2) **Profesor**
    - Login
    - Logout
@@ -32,6 +35,9 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
    - Inregistrare
    - Vede Detaliile Profilului
    - Cauta/Vede alti utilizatori
+   - Pune absente 
+   - Primeste Notificari
+   
      
 3) **Utilizator Anonim**
    - Cauta si vede studenti/profesori si detaliile acestora (detaliile esentiale precum contactul sunt ascunse)
@@ -42,7 +48,7 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
    - Adauga Materii
    - Sterge Materii
    - Sterge Useri (Studenti / Profesori)
-     
+   
 
 ## Use-Case Diagram 
 
@@ -51,7 +57,7 @@ Persistenta datelor este asigurata de conexiunea la baza de date, gestionata cu 
 
 **Alte detalii**
 
--> aplicatia foloseste mai multe backenduri, un **CORE MVC** si un **CORE API**. 
+-> aplicatia foloseste mai multe backenduri, doua **API** si o **aplicatie frontend REACT**. 
 
 
 
@@ -76,6 +82,9 @@ This project aims to create an application that allows the management of a stude
       - Register
       - Account details
       - Search and See other users
+      - Can see the absences (TBI)
+      - Notifs (TBI)
+
 
    2) **Teacher**
       - Login
@@ -86,6 +95,8 @@ This project aims to create an application that allows the management of a stude
       - Register
       - Account details
       - Search and See other users
+      - Can put the absences (TBI)
+      - Notifs (TBI)
 
    3) **Anonymus User**
 
@@ -99,11 +110,13 @@ This project aims to create an application that allows the management of a stude
       - Remove Users (Students / Teachers)
 
 
+## Use Case Diagram
+
 <img width="1351" height="678" alt="image" src="https://github.com/user-attachments/assets/38517e84-d1f2-4946-a1af-52b82865bd19" />
 
 **Other details**
 
--> this app uses 2 backends : **1 x Core MVC** and **1 x Core API**
+-> this app uses 2 backends and 1 frontend : **2 x API** and **1 x React Frontend App**.
 
 
 
