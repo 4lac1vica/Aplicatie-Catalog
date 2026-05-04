@@ -82,7 +82,7 @@ This project aims to create an application that allows the management of a stude
       - Register
       - Account details
       - Search and See other users
-      - Can see the absences (TBI)
+      - Can see the absences 
       - Notifs (TBI)
 
 
@@ -95,7 +95,7 @@ This project aims to create an application that allows the management of a stude
       - Register
       - Account details
       - Search and See other users
-      - Can put the absences (TBI)
+      - Can put the absences 
       - Notifs (TBI)
 
    3) **Anonymus User**
