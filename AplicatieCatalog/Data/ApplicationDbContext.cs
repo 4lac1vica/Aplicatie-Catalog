@@ -15,6 +15,7 @@ namespace AplicatieCatalog.Data
         public DbSet<Student> Students { get; set; }
         public DbSet<Materie> Materii { get; set; }
         public DbSet<Nota> Grades { get; set; }
+        public DbSet<Notification> Notifications{ get; set; }
 
         public DbSet<Absenta> Absente { get; set; }
 
@@ -64,6 +65,8 @@ namespace AplicatieCatalog.Data
                 .WithMany(m => m.Absente)
                 .HasForeignKey(a => a.MaterieId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+           
 
         }
     }

@@ -114,6 +114,18 @@
         }
       }
     },
+    "/api/Absente/notifications": {
+      "get": {
+        "tags": [
+          "Absente"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Account/register": {
       "post": {
         "tags": [

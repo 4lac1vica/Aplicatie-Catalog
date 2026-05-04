@@ -68,6 +68,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AplicatieCatalog.Controllers.AbsenteController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Absente/notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AplicatieCatalog.Controllers.AccountController",
     "Method": "DeleteAccount",
     "RelativePath": "api/Account/delete",

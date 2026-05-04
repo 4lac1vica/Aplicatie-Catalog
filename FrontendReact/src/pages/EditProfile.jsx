@@ -13,17 +13,34 @@ function EditProfile() {
 
     useEffect(() => {
         const loadProfile = async () => {
-            const response = await fetch("https://localhost:7105/api/account/profile", {
-                method: "GET",
-                credentials: "include"
-            });
+            try {
+                const response = await fetch("https://localhost:7105/api/account/profile", {
+                    method: "GET",
+                    credentials: "include"
+                });
 
-            const data = await response.json();
+                const raw = await response.text();
 
-            setTelephone(data.telephone || "");
-            setGrupa(data.grupa || "");
-            setMaterie(data.materie || "");
-            setRole(data.role || "");
+                let data = {};
+                try {
+                    data = raw ? JSON.parse(raw) : {};
+                } catch {
+                    data = { message: raw };
+                }
+
+                if (!response.ok) {
+                    setMessage(data.message || "Eroare la incarcarea profilului.");
+                    return;
+                }
+
+                setTelephone(data.telephone || "");
+                setGrupa(data.grupa || "");
+                setMaterie(data.materie || "");
+                setRole(data.role || "");
+            } catch (err) {
+                console.error(err);
+                setMessage("Eroare server la incarcarea profilului.");
+            }
         };
 
         loadProfile();
@@ -32,44 +49,59 @@ function EditProfile() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const response = await fetch("https://localhost:7105/api/account/profile", {
-            method: "PUT",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            credentials: "include",
-            body: JSON.stringify({
-                telephone,
-                grupa,
-                materie,
-                password
-            })
-        });
-
-        const raw = await response.text();
-
-        let data = {};
         try {
-            data = JSON.parse(raw);
-        } catch {
-            data = { message: raw };
+            const response = await fetch("https://localhost:7105/api/account/profile", {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                credentials: "include",
+                body: JSON.stringify({
+                    telephone,
+                    grupa,
+                    materie,
+                    password
+                })
+            });
+
+            const raw = await response.text();
+
+            let data = {};
+            try {
+                data = raw ? JSON.parse(raw) : {};
+            } catch {
+                data = { message: raw };
+            }
+
+            if (!response.ok) {
+                setMessage(data.message || "Eroare la actualizare.");
+                return;
+            }
+
+            setMessage("Profil actualizat cu succes!");
+
+            setTimeout(() => {
+                if (role === "Student") {
+                    navigate("/student");
+                } else if (role === "Teacher") {
+                    navigate("/teacher");
+                } else if (role === "Admin") {
+                    navigate("/admin");
+                } else {
+                    navigate("/");
+                }
+            }, 1000);
+        } catch (err) {
+            console.error(err);
+            setMessage("Eroare server la actualizare.");
         }
-
-        if (!response.ok) {
-            setMessage(data.message || "Eroare la actualizare.");
-            return;
-        }
-
-        setMessage("Profil actualizat cu succes!");
-
-        setTimeout(() => {
-            navigate("/profile");
-        }, 1000);
     };
 
     return (
         <div style={{ textAlign: "center", marginTop: "50px" }}>
             <h2>Editeaza Profil</h2>
+
+            {message && <p style={{ color: "red" }}>{message}</p>}
 
             <form onSubmit={handleSubmit}>
                 <input
@@ -124,8 +156,6 @@ function EditProfile() {
             <button onClick={() => navigate("/profile")}>
                 Inapoi
             </button>
-
-            <p>{message}</p>
         </div>
     );
 }

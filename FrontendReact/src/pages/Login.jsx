@@ -85,6 +85,11 @@ function Login() {
             </form>
 
             <p style={{ color: "red" }}>{message}</p>
+
+            <button onClick={() => navigate("/")}>
+                Inapoi la Home
+            </button>
+
         </div>
     );
 }

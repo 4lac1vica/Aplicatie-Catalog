@@ -10,6 +10,7 @@ using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Text.Json;
 using Microsoft.AspNetCore.SignalR;
+using AplicatieCatalog.Models;
 
 namespace AplicatieCatalog.Controllers
 {
@@ -107,8 +108,21 @@ namespace AplicatieCatalog.Controllers
                 return BadRequest(new { message = errorMessage });
             }
 
-            await _hubContext.Clients.Group(studentUserId).SendAsync("ReceiveNotification", "A fost adaugata o absenta noua.");
+            var notification = new Notification
+            {
+                UserId = studentUserId,
+                Message = "A fost adaugata o absenta noua.",
+                CreatedAt = DateTime.Now,
+                IsRead = false
+            };
 
+            _context.Notifications.Add(notification);
+            await _context.SaveChangesAsync();
+
+            await _hubContext.Clients.Group(studentUserId).SendAsync(
+                "ReceiveNotification",
+                notification.Message
+            );
 
             return Ok(new { message = "Absenta adaugata cu succes!" });
         }
@@ -135,7 +149,7 @@ namespace AplicatieCatalog.Controllers
 
             if (!response.IsSuccessStatusCode)
             {
-                return BadRequest(new {message = "Eroare la request!"});
+                return BadRequest(new { message = "Eroare la request!" });
             }
 
             var json = await response.Content.ReadAsStringAsync();
@@ -150,7 +164,23 @@ namespace AplicatieCatalog.Controllers
 
                 );
 
-            return Ok(absences ?? new List <AbsentaViewModel>());
+            return Ok(absences ?? new List<AbsentaViewModel>());
+
+
+        }
+
+        [Authorize]
+        [HttpGet("notifications")]
+        public async Task<IActionResult> GetNotifications()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var notifications = await _context.Notifications
+                .Where(n => n.UserId == userId)
+                .OrderByDescending(n => n.CreatedAt)
+                .ToListAsync();
+
+            return Ok(notifications);
         }
 
     }
