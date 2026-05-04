@@ -15,6 +15,7 @@ import Search from "./pages/Search";
 import AdminDashboard from "./pages/AdminDashboard";
 import AddAbsences from "./pages/AddAbsences";
 import MyAbsences from "./pages/MyAbsences";
+import Notification from "./pages/Notifications";
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                 <Route path="/admin" element={<AdminDashboard />} />
                 <Route path="/add-absenta" element={<AddAbsences />} />
                 <Route path="/my-absente" element={<MyAbsences />} />
+                <Route path="/notificari" element={<Notification />} />
             </Routes>
         </BrowserRouter>
     );
