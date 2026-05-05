@@ -1,4 +1,5 @@
 ﻿using AplicatieCatalog.Data;
+using AplicatieCatalog.Models;
 using AplicatieCatalog.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Text.Json;
-
+using Microsoft.AspNetCore.SignalR;
+using AplicatieCatalog.Hubs;
 
 namespace AplicatieCatalog.Controllers
 {
@@ -18,11 +20,13 @@ namespace AplicatieCatalog.Controllers
     {
         private readonly HttpClient _httpClient;
         private readonly ApplicationDbContext _context;
+        private readonly IHubContext<NotificationHub> _hubContext; 
 
-        public GradesController(IHttpClientFactory httpClientFactory, ApplicationDbContext context)
+        public GradesController(IHttpClientFactory httpClientFactory, ApplicationDbContext context, IHubContext<NotificationHub> hubContext)
         {
             _httpClient = httpClientFactory.CreateClient();
             _context = context;
+            _hubContext = hubContext;
         }
 
         [Authorize(Roles = "Teacher")]
@@ -92,6 +96,28 @@ namespace AplicatieCatalog.Controllers
                 var errorMessage = await response.Content.ReadAsStringAsync();
                 return BadRequest(new { message = errorMessage });
             }
+
+
+            var student = await _context.Students.FirstOrDefaultAsync(s => s.ID == model.StudentId);
+
+            var materie = await _context.Materii
+                .FirstOrDefaultAsync(m => m.Id == model.MaterieId);
+
+            var notification = new Notification
+            {
+                UserId = student.ApplicationUserId,
+                Message = $"Ai primit o noua nota la {materie.Nume}",
+                CreatedAt = DateTime.Now,
+                IsRead = false
+            };
+
+            _context.Notifications.Add(notification);
+            await _context.SaveChangesAsync();
+
+            await _hubContext.Clients.Group(student.ApplicationUserId)
+                .SendAsync("ReceiveNotification", notification.Message);
+
+
 
             return Ok(new { message = "Nota a fost adaugata cu succes!" });
 
